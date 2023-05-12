@@ -1,0 +1,124 @@
+/* Efeitos */
+.caixa-servicos-cabelo img:hover{
+    background-color: rgb(72, 25, 77,0.4);
+    width: min-content;
+    
+}
+.caixa-servicos-barba img:hover{
+    background-color: rgb(72, 25, 77,0.4);
+    width: min-content;
+    
+}
+.caixa-servicos-quimica img:hover{
+    background-color: rgba(72, 25, 77,0.4);
+    width: min-content;
+    
+}
+
+.caixa-servicos-tatuagem img:hover{
+    background-color: rgb(72, 25, 77,0.4);
+    width: min-content;
+    
+}
+
+.titulo-legenda::selection{
+    
+    background-color: rgb(72, 25, 77);
+}
+
+.texto-legenda::selection{
+    background-color: #48194d;
+    
+}
+
+#caixa-imagem h2::selection{
+    background-color: #48194d;
+    width: 40px;
+    color:white;
+    opacity: 0.8px;
+}
+
+#rodape p ::selection{
+    background-color: #0f0f0f91;
+    color: white;
+    
+}
+
+#menu li:hover{
+    transition: 5s;
+    padding-top: 10px;
+    transition: 1s;
+    background-color: rgb(255, 59, 59);
+    text-decoration: underline;
+    
+}
+
+#menu a:hover{
+    transition: 1s;
+    color: rgb(255, 255, 0);
+    text-shadow: -1px 0 black, 3px 1px black;
+}
+
+.legenda:hover{
+    
+    transition: 4s;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 500px;
+    padding: 10px;
+}
+.legenda:hover h2{
+    margin-left: 150px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    text-shadow: -4px 1px rgb(0, 0, 0), 0 3px rgb(107, 107, 107);
+}
+
+.titulo-legenda:hover{
+    transition: 2s;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    font-size: 35px;
+    
+    
+}
+
+.texto-legenda:hover{
+    transition: 2s;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+    text-align: start;
+    font-size: 18px;
+    width: 500px;
+    height: 400px;
+    text-shadow: -5px 0 rgb(0, 0, 0);
+
+}
+
+.img-slider:hover{
+    transition: 1s;
+    filter:blur(2px);
+    border: 5px solid rgba(255, 255, 255);
+    border-radius: 20px;
+    border-top-right-radius: 50px;
+    border-top-color: rgb(232, 210, 39, 0.5);
+    border-bottom-color:rgb(232, 210, 39, 0.5) ;
+    
+}
+
+#rodape:hover{
+    font-size: 14px;
+    bottom: 2px;
+    background-color: rgb(0, 0, 0,0.2);
+  
+    
+}
+
+.slider-botao:hover{
+    transition: 1s;
+    background-color: rgb(255, 255, 0,0.6);
+    color: #48194d;
+}
+
+.slider-botao a:hover{
+    color: #ffffff;
+}

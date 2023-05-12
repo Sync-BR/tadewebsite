@@ -1,0 +1,239 @@
+/* Formatação plano de fundo */
+body{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+
+
+/* Formatação do cabeçalho*/
+#topo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #141414;
+    height: 70px;
+    margin-bottom: 3px;
+
+    
+    
+    
+}
+
+/* Formatação do texto do topo */
+.topo-texto{
+    color:rgb(255, 250, 250);
+    text-decoration: solid;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: -5px 0 rgb(165, 165, 165);    
+}
+
+
+
+/* Formatação do menu */
+#menu{
+    padding: 1px;
+    background-color: #000000;
+    height: 50px;
+    margin-bottom: 3px;
+    border-top: 2px solid rgb(255, 255, 0, 0.4);
+    border-bottom: 2px solid rgb(255, 255, 0, 0.4);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#menu li {
+    display: inline-flex;
+    margin: 3px;
+    
+}
+
+#menu li a{
+    
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+.layout-botao{
+    width: 90px;
+    height: 40px;
+    justify-content: center;
+    background-color:transparent;
+    opacity: 0.8;
+}
+
+/* Formatação do slider */
+#caixa{
+    z-index: 0;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 450px;
+    background-color: #3f3f3ff8;
+}
+/* Formatação da imagem */
+.img-slider{
+    width: 100%;
+    opacity: 0.7;
+   
+   
+}
+.container{
+    position: relative;
+}
+.legenda{
+    
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 200px;
+    text-align: start;
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    
+}
+
+
+/* Formatação do titulo da legenda */
+.texto-legenda{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+
+/* Formatação do texto da legenda */
+.titulo-legenda{
+    opacity: 1;
+    text-shadow: -4px 1px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Formatação do botão */
+.slider-botao{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 40%;
+    background-color: rgb(232, 210, 39, 0.5);
+    width: 100px;
+    height: 30px;
+    padding: 2px;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255, 0.4);
+    
+}
+.slider-botao li{
+    display: inline-flex;
+    
+}
+
+.slider-botao a{
+    text-shadow: -2px 0 black;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+/* Formatação da caixa de servicos */
+
+#caixa-servicos{
+    position: relative;
+    column-gap: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(100, 99, 99, 0.984);
+    width: 100%;
+    height: 200px;
+    border: 1px solid white;
+    border-left-color: #48194d;
+    border-right-color: #48194d;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: -2px 1px black;
+    
+    
+    
+}
+.servico_texto{
+ 
+    justify-content: center;
+    position: absolute;
+   
+}
+
+/* Formatação da area de contato */
+.caixa_contato{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 239, 99, 0.719);
+   
+}
+/* Formatação da caixa de imagem */
+#user-foto{
+    position: absolute;
+    display: block;
+    background-color: #000000;
+    margin-left: 2px;
+}
+/* Formatação dos dados */
+#user-infor{
+    color: rgb(0, 0, 0);
+    margin-left: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+}
+
+/* Formatação do titulo do contato */
+.titulo_contato{
+    color: white;
+    text-shadow: -2px 0 black;
+}
+
+/* Formatação da caixa sobre */
+
+.sobre_texto{
+    margin-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+}
+
+.sobre_paragrafo{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Formatação do rodape */
+#rodape{
+    display:flex;
+    flex-direction: column;
+    position: sticky;
+    bottom: 0;
+    border: 1px solid rgb(255, 255, 255);
+    padding-top: 4px;
+    padding-left: 4px;
+    display: flex;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 45px;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

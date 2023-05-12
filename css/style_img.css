@@ -1,0 +1,57 @@
+
+.img-slider{
+    filter: blur(2px);
+}
+
+.caixa-servicos-cabelo img{
+    background-color: rgb(20, 20, 20, 0.2);
+    border: 1px solid white;
+    border-top-color: aqua;
+    border-left-color: yellow;
+    border-bottom-color: aquamarine;
+    border-right-color: rgb(198, 236, 59);
+    border-radius: 20px;
+    margin-top: 40px;
+    
+    
+}
+
+.caixa-servicos-quimica img{
+    background-color: rgb(20, 20, 20, 0.2);
+    border: 1px solid white;
+    border-top-color: aqua;
+    border-left-color: yellow;
+    border-bottom-color: aquamarine;
+    border-right-color: rgb(198, 236, 59);
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.caixa-servicos-tatuagem img{
+    background-color: rgb(20, 20, 20, 0.2);
+    border: 1px solid white;
+    border-top-color: aqua;
+    border-left-color: yellow;
+    border-bottom-color: aquamarine;
+    border-right-color: rgb(198, 236, 59);
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.caixa-servicos-barba img{
+    background-color: rgb(20, 20, 20, 0.2);
+    border: 1px solid white;
+    border-top-color: aqua;
+    border-left-color: yellow;
+    border-bottom-color: aquamarine;
+    border-right-color: rgb(198, 236, 59);
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+
+.foto-user{
+    width: 100px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
