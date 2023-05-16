@@ -2,35 +2,143 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/css/reset.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style_img.css">
+        <link rel="stylesheet" href="css/efeitos.css">
+        <link rel="shortcut icon" href="img/barbearia.ico" type="image/x-icon">
         <title>BARBEARIA</title>
     </head>
 
     <body>
              <!-- Cabeçalho -->       
             <header id="topo">
-                <h1 class="topo-texto">BARBEARIA</h1>
+                <h1 class="topo-texto">BARBEARIA</h1>      
             </header>
-            <!-- menu -->
-            <nav id="menu">
+             <!-- menu -->
+             <nav id="menu">
                 <ul>
                     <li class="layout-botao"><a href="index.html">INICIO</a></li>
                     <li class="layout-botao"><a href="sobre.html">SOBRE</a></li>
                     <li class="layout-botao"><a href="servicos.html">SERVIÇOS</a></li>
                     <li class="layout-botao"><a href="contato.html">CONTATO</a></li>
                 </ul>
-            </nav>   
-        <!--  Conteudo -->
-        <article>
-            <div class="article_conteudo">
-                <h1>TITULO</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos magnam quis recusandae cupiditate et distinctio eius. Excepturi nobis alias fuga sequi vero voluptatem inventore ut, voluptate sit eaque dolorum natus?</p>
+            </nav>  
+    
+
+            <main>
+                <article id="servicos_conteudo">
+                    <div id="servico-produto-texto">
+                        <table border="1" class="servico-tabela">
+                            <caption></caption>
+                            <th rowspan="9" class="servico-tabela-produtos"></th>
+                            <th class="servico-tabela-titulos">Serviço</th>
+                            <th class="servico-tabela-titulos">Comentario</th>
+                            <th class="servico-tabela-titulos">Preço</th>
+                            <tr class="servico-linha-tabela">
+                                <td>Corte de Maquina</td>
+                                <td>NULL</td>
+                                <td><strong>R$</strong>:22,00</td>
+                            </tr>
+                            <tr class="servico-linha-tabela">
+                                <td>Corte de Tesoura</td>
+                                <td>NULL</td>
+                                <td><strong>R$</strong>:20,00</td>
+                            </tr>
+                            <tr class="servico-linha-tabela">
+                                <td>Navalhado disfarçado</td>
+                                <td>NULL</td>
+                                <td><strong>R$</strong>:17,00</td>
+                            </tr>
+                            <tr class="servico-linha-tabela">
+                                <td>Navalhado simples</td>
+                                <td>NULL</td>
+                                <td><strong>R$</strong>:15,00</td>
+                            </tr>
+                            <tr class="servico-linha-tabela">
+                                <td>Sobrancelha Gillette</td>
+                                <td>NULL</td>
+                                <td><strong>R$</strong>:7,00</td>
+                            </tr>
+                            <tr class="servico-linha-tabela">
+                                <td >Sombracelha henna</td>
+                                <td>NULL</td>
+                                <td><strong>R$</strong>:20,00</td>
+                            </tr>
+                            <tr class="servico-linha-tabela">
+                                <td >Sombracelha pinça</td>
+                                <td>NULL</td>
+                                <td><strong>R$</strong>:10,00</td>
+                            </tr>
+                            <tr class="servico-linha-tabela">
+                                <td>Pintura</td>
+                                <td>NULL</td>
+                                <td><strong>R$</strong>:10,00</td>
+                            </tr>
+                        </table>
+                    </div>
+                </article>
+
+                <div id="servicos_icones"> 
+                    <div class="servicos-icones-cabelo">
+                        <img class="servicos-icones-all" src="img/servico_icones_cabelo.png" alt="cabelo">
+                        <p>Cabelo</p>
+                    </div>
+                    <div class="servicos-icones-pe">
+                        <img class="servicos-icones-all" src="img/navalha.png" alt="pé de cabelo">
+                        <p>Pé</p>
+                    </div>
+
+                    <div class="servicos-icones-barba">
+                        <img class="servicos-icones-all" src="img/servico_icones_barba.png" alt="barba">
+                        <p>Barba</p>
+                    </div>
+                    <div class="servicos-icones-sombracelha">
+                        <img class="servicos-icones-all" src="img/servicos_icones_sombracelha.png" alt="sombracelhas">
+                        <p>Sombracelha</p>
+                    </div>
+                    <div class="servicos-icones-tinta">
+                        <img class="servicos-icones-all" src="img/servicos_icones_tinta.png" alt="tintar">
+                        <p>Pintura</p>
+                    </div>
+                    
+                    <div class="servicos-icones-tatto">
+                        <img class="servicos-icones-all" src="img/servicos_icones_tatto.png" alt="tatto">
+                        <p>Tatto</p>
+                    </div>
+                </div>
+            </main>
+            <footer id="rodape" class="rodape">
+                <p>BARBEARIA © 2023. All Rights Reserveds.</p>
+            </footer>
+    
+            <div id="caixa-rodape-fundo">
+                <div class="rodape-infor">
+                    <div class="icones_rodape">
+                        <img class="icon-rodape" src="img/rodape/email.ico" alt="email">
+                        <img class="icon-rodape" src="img/rodape/Whatsapp.ico" alt="Whatsapp">
+                    </div>
+                    <div class="icones-texto">
+                        <p><strong>Email: </strong>jonatasgomes065@gmail.com</p>
+                        <br>
+                        <p><strong>Whatsapp: </strong>(71) 9 8691-7919</p>
+                    </div>
+                </div>
+    
+                <div class="rodape-paginas">
+                    <h2>Paginas</h2>
+                    <section>
+                        <ul>
+                            <li><a href="index.html">INICIO</a></li>
+                            <li><a href="servicos.html">SERVIÇOS</a></li>
+                            <li><a href="sobre.html">SOBRE</a></li>
+                            <li><a href="contato.html">CONTATO</a></li>
+                        </ul>
+                    </section>
+    
+                </div>
             </div>
-        </article>    
-        <!-- Rodape -->
-        <footer id="rodape"><p>BARBEARIA © 2023. All Rights Reserved</p></footer>
     </body>
 </html>

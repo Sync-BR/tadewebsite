@@ -1,21 +1,41 @@
 /* Efeitos */
+
+.rodape-paginas a:hover{
+    text-decoration: underline;
+    padding-left: 2px;
+    font-size: 20px;
+}
+.caixa_contato:hover{
+    background-color:rgb(154, 205, 50,0.8);
+ 
+}
+
+
+.rodape_sobre:hover{
+    background-color:rgb(154, 205, 50,0.8);
+}
+
 .caixa-servicos-cabelo img:hover{
+    transition: 2s;
     background-color: rgb(72, 25, 77,0.4);
     width: min-content;
     
 }
 .caixa-servicos-barba img:hover{
+    transition: 2s;
     background-color: rgb(72, 25, 77,0.4);
     width: min-content;
     
 }
 .caixa-servicos-quimica img:hover{
+    transition: 2s;
     background-color: rgba(72, 25, 77,0.4);
     width: min-content;
     
 }
 
 .caixa-servicos-tatuagem img:hover{
+    transition: 2s;
     background-color: rgb(72, 25, 77,0.4);
     width: min-content;
     
@@ -43,34 +63,38 @@
     color: white;
     
 }
+#menu:hover{
+    transition: 2s;
+    background-color: rgb(0, 0, 0,0.5);
+    border-bottom: 1px solid yellow;
+}
 
 #menu li:hover{
-    transition: 5s;
-    padding-top: 10px;
     transition: 1s;
-    background-color: rgb(255, 59, 59);
+    border: 1px solid white;
+    background-color: #48194d;
     text-decoration: underline;
-    
 }
 
 #menu a:hover{
-    transition: 1s;
-    color: rgb(255, 255, 0);
-    text-shadow: -1px 0 black, 3px 1px black;
+    text-shadow: -4px 0 black, 3px 1px black;
+    transition: 2s;
+    color: rgb(255, 219, 12);
 }
 
 .legenda:hover{
     
     transition: 4s;
     background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
     width: 500px;
     padding: 10px;
 }
 .legenda:hover h2{
-    margin-left: 150px;
+    
     margin-bottom: 5px;
     font-size: 40px;
-    text-shadow: -4px 1px rgb(0, 0, 0), 0 3px rgb(107, 107, 107);
+    text-shadow: -1px 0 0 0 black;
 }
 
 .titulo-legenda:hover{
@@ -90,8 +114,20 @@
     font-size: 18px;
     width: 500px;
     height: 400px;
-    text-shadow: -5px 0 rgb(0, 0, 0);
+    text-shadow: -2px 0 rgb(0, 0, 0);
 
+}
+.foto-user:hover{
+    transition: 1s;
+    border: 1px solid red;
+    opacity: 0.8;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    filter: opacity(5px);
+    zoom: 1.1;
+    width: 90px;
+    height: 80px;
 }
 
 .img-slider:hover{
@@ -105,10 +141,17 @@
     
 }
 
+#rodape p::selection{
+    background-color: #48194d;
+    color:white;
+}
+
 #rodape:hover{
     font-size: 14px;
     bottom: 2px;
-    background-color: rgb(0, 0, 0,0.2);
+    background-color: rgb(0, 0, 0,0.4);
+    color: wheat;
+    text-shadow: -2px 1px black;
   
     
 }
@@ -121,4 +164,25 @@
 
 .slider-botao a:hover{
     color: #ffffff;
+}
+
+
+
+/* PAGINA DE SERVIÇOS */
+
+.servico-linha-tabela:hover{
+    zoom: 1.1   ;
+    background-color: #c90ab079;
+    color:rgb(248, 240, 7);
+    font-family: 20px;
+    text-shadow: -2px 1px rgb(12, 12, 12);
+}
+
+.servicos-icones-all:hover{
+    zoom: 1.2;
+    cursor: pointer;
+    transition: 2s;
+    background-color: rgba(255, 255, 255, 0.44);
+    border:2px solid yellow;    
+    border-radius: 15px;
 }

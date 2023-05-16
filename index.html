@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/css/reset.css">
         <link rel="stylesheet" href="css/style.css">
@@ -21,7 +21,7 @@
             <!-- menu -->
             <nav id="menu">
                 <ul>
-                    <li class="layout-botao"><a href="index.html">INICIO</a></li>
+                    <li class="layout-botao"><a class="botao-inicio" href="index.html">INICIO</a></li>
                     <li class="layout-botao"><a href="sobre.html">SOBRE</a></li>
                     <li class="layout-botao"><a href="servicos.html">SERVIÇOS</a></li>
                     <li class="layout-botao"><a href="contato.html">CONTATO</a></li>
@@ -51,23 +51,23 @@
             
             
            <div class="caixa-servicos-cabelo">
-                <img src="img/Cabelo-Barba.png" alt="Cabelo-Barba">
+                <img class="servicos_img_principal"  src="img/Cabelo-Barba.png" alt="Cabelo-Barba">
                 <p>Cabelo</p>
            </div> 
 
            <div class="caixa-servicos-barba">
-            <img src="img/barba.png" alt="Cabelo-Barba">
+            <img class="servicos_img_principal"  src="img/barba.png" alt="Cabelo-Barba">
             <p>Barba</p>
          </div> 
 
            <div class="caixa-servicos-quimica">
-                <img src="img/Quimica.png" alt="Quimica">
+                <img class="servicos_img_principal"  src="img/Quimica.png" alt="Quimica">
                 <p>Pintura</p>
            </div>
 
           
             <div class="caixa-servicos-tatuagem">
-                <img src="img/16-Tatuagem.png" alt="Cabelo-Barba">
+                <img class="servicos_img_principal"  src="img/16-Tatuagem.png" alt="Cabelo-Barba">
                 <p>Tatuagem</p>
             </div> 
 
@@ -77,25 +77,66 @@
            
         
 
-            <div class="caixa_contato">
-                <div id="user-foto">
-                    <img class="foto-user" src="img/usuario.jpg" alt="usuario">
-                </div>
-                <div id="user-infor">
-                <h1 class="titulo_contato">Contato</h1>
-                <p>Telefone: 71 9XXXX-XXXX</p>
-                <p>E-mail: jonatasgomesdasilva@gmail.com</p>
-                <p>Endereço: Alto do cabrito, Adilson leite, Casa 89A</p>
-                </div>
-            </div>
 
 
         </article>
 
         <!-- Rodape -->
+        <div class="caixa_rodape">
+            
+            <div class="rodape_sobre">
+                <h1 class="rodape_title">Sobre</h1>
+                <p class="rodape_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt expedita odio ad qui voluptate nihil sit, excepturi inventore culpa consectetur natus error ipsam totam, deleniti eligendi provident possimus accusamus dolore.</p>
+            </div>
+
+            <div class="rodape_contato">
+                <div class="caixa_contato">
+                    <div id="user-foto">
+                        <img class="foto-user" src="img/usuario.jpg" alt="usuario">
+                    </div>
+                    <div id="user-infor">
+                    <h1 class="titulo_contato">Contato</h1>
+                    <p><strong>Nome:</strong>Jonatas Gomes</p>
+                    <p><strong>Telefone:</strong>(71) 98691-7919</p>
+                    <p><strong>E-mail:</strong> jonatasgomes065@gmail.com</p>
+                    <p><strong>Endereço:</strong>Alto do cabrito, Adilson leite, Casa 89A</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <footer id="rodape" class="rodape">
-            <p>BARBEARIA © 2023. All Rights Reserved.</p>
-           
+            <p>BARBEARIA © 2023. All Rights Reserveds.</p>
         </footer>
+
+        <div id="caixa-rodape-fundo">
+            <div class="rodape-infor">
+                <div class="icones_rodape">
+                    <img class="icon-rodape" src="img/rodape/email.ico" alt="email">
+                    <img class="icon-rodape" src="img/rodape/Whatsapp.ico" alt="Whatsapp">
+                </div>
+                <div class="icones-texto">
+                    <p><strong>Email: </strong>jonatasgomes065@gmail.com</p>
+                    <br>
+                    <p><strong>Whatsapp: </strong>(71) 9 8691-7919</p>
+                </div>
+            </div>
+
+            <div class="rodape-paginas">
+                <h2>Paginas</h2>
+                <section>
+                    <ul>
+                        <li><a href="index.html">INICIO</a></li>
+                        <li><a href="servicos.html">SERVIÇOS</a></li>
+                        <li><a href="sobre.html">SOBRE</a></li>
+                        <li><a href="contato.html">CONTATO</a></li>
+                    </ul>
+                </section>
+
+            </div>
+        </div>
+        
+        
+        
     </body>
 </html>

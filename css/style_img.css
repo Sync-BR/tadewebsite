@@ -1,4 +1,13 @@
 
+.icon-rodape{
+    width: 36px;
+    height: 36px;
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 4px;
+   
+}
+
 .img-slider{
     filter: blur(2px);
 }
@@ -14,6 +23,14 @@
     margin-top: 40px;
     
     
+}
+
+.servicos_img_principal{
+    background-color: rgba(247, 223, 6, 0.803);
+    width: 92px;
+    height: 92px;
+    border:2px solid black;
+    border-radius: 10px;
 }
 
 .caixa-servicos-quimica img{
@@ -50,8 +67,30 @@
 
 
 .foto-user{
+    width: 105px;
+    height: 98px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 150px;
+}
+
+#user-foto{
+background-color: transparent;
+}
+
+.servicos-icones-imagem-barba{
     width: 100px;
-    height: 80px;
-    border: 1px solid black;
-    border-radius: 20px;
+    height: 100px;
+}
+
+
+
+
+/* Pagina de serviços */
+
+.servicos-icones-all{
+    background-color: rgba(247, 223, 6, 0.803);
+    width: 92px;
+    height: 92px;
+    border:2px solid black;
+    border-radius: 10px;
 }
