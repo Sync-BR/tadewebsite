@@ -1,142 +1,239 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/css/reset.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/style_img.css">
-        <link rel="stylesheet" href="css/efeitos.css">
-        <link rel="shortcut icon" href="img/barbearia.ico" type="image/x-icon">
-        <title>BARBEARIA</title>
-    </head>
 
-    <body>
-             <!-- Cabeçalho -->       
-            <header id="topo">
-                <h1 class="topo-texto">BARBEARIA</h1>
-            </header>
-           
-            <!-- menu -->
-            <nav id="menu">
-                <ul>
-                    <li class="layout-botao"><a class="botao-inicio" href="index.html">INICIO</a></li>
-                    <li class="layout-botao"><a href="sobre.html">SOBRE</a></li>
-                    <li class="layout-botao"><a href="servicos.html">SERVIÇOS</a></li>
-                    <li class="layout-botao"><a href="contato.html">CONTATO</a></li>
-                </ul>
-            </nav>   
-            
-        <div id="caixa" class="container">
-            <img class="img-slider" src="img/cadeiras-vintage-na-barbearia.jpg" alt="cadeira-barbeiro">
-            <div class="legenda">
-                <h2 class="titulo-legenda">BARBEARIA</h2>
-                <p class="texto-legenda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut magnam odit velit quam debitis fugit fuga doloribus non optio quia sequi aperiam culpa voluptatibus minima est voluptatem, in fugiat? Quisquam!</p>
-                
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_img.css">
+    <link rel="stylesheet" href="css/efeitos.css">
+    <link rel="shortcut icon" href="img/barbearia.ico" type="image/x-icon">
+    <title>BARBEARIA</title>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header id="topo">
+        <h1 class="topo-texto">BARBEARIA</h1>
+    </header>
+    <!-- menu -->
+    <nav id="menu">
+        <ul>
+            <li class="layout-botao"><a class="botao-inicio" href="index.html">INICIO</a></li>
+            <li class="layout-botao"><a href="sobre.html">SOBRE</a></li>
+            <li class="layout-botao"><a href=".servicos_txt">SERVIÇOS</a></li>
+            <li class="layout-botao"><a href="contato.html">CONTATO</a></li>
+        </ul>
+    </nav>
+
+ <main>
+  <!-- Imagem -->
+    <div id="caixa" class="container">
+        <img class="img-slider" src="./img/cadeiras-vintage-na-barbearia.jpg" alt="cadeira-barbeiro">
+        <div class="legenda">
+            <h2 class="titulo-legenda">BARBEARIA</h2>
+            <p class="texto-legenda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut magnam odit velit quam
+                debitis fugit fuga doloribus non optio quia sequi aperiam culpa voluptatibus minima est voluptatem, in
+                fugiat? Quisquam!</p>
                 <div class="slider-botao">
-                    <ul>
-                        <li><a href="#caixa-servicos"> Saiba Mais</a></li>
-                    </ul>
-                 </div> 
-                   
+                    <button id="btnservicos">
+                        <section>
+                            <a href="#inicio-promocoes" >Promoções</a>
+                        </section>
+                       
+                    </button>
+                </div>
+        </div>
+    </div>
+
+
+    <!-- Teste -->
+    <div id="inicio-promocao">
+        <h2>Promoção</h2>
+        <div class="todas-promocao">
+            <div class="promocao_info_amigo1">
+                <h3>Desconto 5%</h3>
+                <p>Se você trouxer alguém para fazer o pé, ambos receberão um desconto de 5% nos serviços. Não há nada melhor do que desfrutar de uma experiência de cuidados pessoais juntos!</p>
             </div>
-        </div>     
-   
-
-        <div id="caixa-servicos">
-            <div class="servico_texto">
-                <h3 class="servico-txt">SERVIÇOS</h3>
+            <div class="promocao_info_amigo2">
+                <h3>Desconto 10%</h3>
+                <p>Se você indicar um amigo para cortar o cabelo conosco, você receberá um desconto especial de 15% na sua próxima visita. Além disso, seu amigo também desfrutará desse desconto exclusivo. É uma vitória para ambos!</p>
             </div>
+            <div class="promocao_info_amigo3">
+                <h3>Desconto 50%</h3>
+                <p>Se você trouxer um amigo para cortar o cabelo, fazer a barba e cuidar das sobrancelhas, nós recompensaremos sua fidelidade com um desconto incrível de 50% em todos os serviços mencionados. </p>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Fim do teste -->
+
+    <!-- Mensagem -->
+    <article>
+        <div class="inicio-mensagem">
+            <!-- Titulo -->
+            <div class="inicio-titulo-forma">
+                <h2>Confie em Nossos Barbeiros para Cuidar da Sua Aparência</h2>
+            </div>
+            <br>
+            <!-- Paragrafos -->
+            <p>Queremos que você se sinta confiante e com uma aparência impecável em cada visita ao nosso salão de barbearia. Nossos talentosos barbeiros são verdadeiros especialistas em transformar e aprimorar o seu visual. Deixe-nos cuidar de você e descubra a diferença que um corte de cabelo profissional e uma barba bem aparada podem fazer.</p>
+            <br>
+            <p>Nossos barbeiros estão sempre atualizados com as últimas tendências e técnicas de cuidados pessoais. Eles têm um olhar treinado para entender o seu estilo e personalidade, proporcionando uma experiência personalizada e resultados excepcionais.</p>
             
-            
-           <div class="caixa-servicos-cabelo">
-                <img class="servicos_img_principal"  src="img/Cabelo-Barba.png" alt="Cabelo-Barba">
-                <p>Cabelo</p>
-           </div> 
+            <p>Ao nos confiar a sua aparência, você está se permitindo relaxar e desfrutar de um tratamento especializado. Deixe-nos assumir o comando, cuidando de cada detalhe para garantir que você saia com um visual que reflita quem você é e como deseja se apresentar ao mundo.</p>
+            <br>
+            <p>Não hesite em compartilhar suas preferências, ideias e preocupações com nossos barbeiros. Eles estão aqui para ouvir e aconselhar, levando em consideração suas necessidades individuais. Deixe-nos cuidar de sua aparência e permita-se ser mimado por nossos profissionais experientes.</p>
+            <br>
+            <p>Agende um horário conosco e confie em nossos barbeiros para cuidar da sua aparência. Com a sua confiança, estamos prontos para superar suas expectativas e ajudá-lo a alcançar o visual que sempre desejou.</p>
+             <br>
+            <p>Estamos ansiosos para recebê-lo em nosso salão de barbearia e proporcionar uma experiência de cuidados pessoais excepcional!</p>
+        </div>
 
-           <div class="caixa-servicos-barba">
-            <img class="servicos_img_principal"  src="img/barba.png" alt="Cabelo-Barba">
-            <p>Barba</p>
-         </div> 
+    </article>
+    <!-- Fim -->
 
-           <div class="caixa-servicos-quimica">
-                <img class="servicos_img_principal"  src="img/Quimica.png" alt="Quimica">
-                <p>Pintura</p>
-           </div>
+    <!-- Promoções -->
+    <div id="inicio-promocoes">
+        <div class="inicio-promocoes-texto">
+            <div class="inicio-titulo-forma">
+                <h2 class="inicio-promocoes-titulo">Combos Especiais para Cabelo, Barba e Mais!</h2>
+                <br>
+            </div>
+            <p class="inicio-promocoes-descricao">Nossos combos são cuidadosamente projetados para atender todas as suas necessidades de cuidados pessoais em um único pacote conveniente. Oferecemos uma variedade de opções que incluem corte de cabelo, barba e outros serviços adicionais, garantindo que você saia com uma aparência impecável e confiante.</p>
+        </div>
+        <div id="inicio-promocoes-info">
 
-          
-            <div class="caixa-servicos-tatuagem">
-                <img class="servicos_img_principal"  src="img/16-Tatuagem.png" alt="Cabelo-Barba">
-                <p>Tatuagem</p>
+            <div class="combo-cabelo-barba">
+                <h2>Cabelo + Barba</h2>
+                <h3>R$22.00</h3>
+                <p class="texto-promocao-validade"><strong>Validade:</strong>25/05/2023</p>
+                <p >Está promoção não é valida para corte de tesoura</p>
+            </div>
+
+            <div class="combo-cabelo-barba-sobracelha">
+                <h2>Cabelo + Barba + Sobracelha</h2>
+                <h3>R$25.00</h3>
+                <p class="texto-promocao-validade"><strong>Validade:</strong>25/05/2023</p>
+                <p>Está promoção não é valida para corte de tesoura</p>
+            </div>
+
+            <div class="combo-cabelo-barba-pintura">
+                <h2>Cabelo + Barba + Tintura</h2>
+                <h3>R$30.00</h3>
+                <p class="texto-promocao-validade"><strong>Validade:</strong>25/05/2023</p>
+                <p>Está promoção não é valida para corte de tesoura</p>
             </div> 
 
         </div>
+    </div>
+
+
+    <!-- Informação de serviços -->
+    <div id="servicos_caixa_index">
+        <div class="servicos_caixa_cabelo">
+            <h2>Cabelo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque blanditiis similique voluptates sunt illo
+                quisquam nemo natus voluptate, harum nam reiciendis ratione est. Aliquam molestiae, repellat magni rerum
+                iste eos?</p>
+        </div>
       
-        <article id="conteudos">
-           
-        
-
-
-
-        </article>
-
-        <!-- Rodape -->
-        <div class="caixa_rodape">
-            
-            <div class="rodape_sobre">
-                <h1 class="rodape_title">Sobre</h1>
-                <p class="rodape_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt expedita odio ad qui voluptate nihil sit, excepturi inventore culpa consectetur natus error ipsam totam, deleniti eligendi provident possimus accusamus dolore.</p>
-            </div>
-
-            <div class="rodape_contato">
-                <div class="caixa_contato">
-                    <div id="user-foto">
-                        <img class="foto-user" src="img/usuario.jpg" alt="usuario">
-                    </div>
-                    <div id="user-infor">
-                    <h1 class="titulo_contato">Contato</h1>
-                    <p><strong>Nome:</strong>Jonatas Gomes</p>
-                    <p><strong>Telefone:</strong>(71) 98691-7919</p>
-                    <p><strong>E-mail:</strong> jonatasgomes065@gmail.com</p>
-                    <p><strong>Endereço:</strong>Alto do cabrito, Adilson leite, Casa 89A</p>
-                    </div>
-                </div>
-            </div>
+        <div class="servicos_caixa_barba">
+            <h2>Barba</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque blanditiis similique voluptates sunt illo
+                quisquam nemo natus voluptate, harum nam reiciendis ratione est. Aliquam molestiae, repellat magni rerum
+                iste eos?</p>
         </div>
-        
-        <footer id="rodape" class="rodape">
-            <p>BARBEARIA © 2023. All Rights Reserveds.</p>
-        </footer>
 
-        <div id="caixa-rodape-fundo">
-            <div class="rodape-infor">
-                <div class="icones_rodape">
-                    <img class="icon-rodape" src="img/rodape/email.ico" alt="email">
-                    <img class="icon-rodape" src="img/rodape/Whatsapp.ico" alt="Whatsapp">
-                </div>
-                <div class="icones-texto">
-                    <p><strong>Email: </strong>jonatasgomes065@gmail.com</p>
-                    <br>
-                    <p><strong>Whatsapp: </strong>(71) 9 8691-7919</p>
-                </div>
+        <div class="servicos_caixa_sobracelha">
+            <h2>Sobracelha</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque blanditiis similique voluptates sunt illo
+                quisquam nemo natus voluptate, harum nam reiciendis ratione est. Aliquam molestiae, repellat magni rerum
+                iste eos?</p>
+        </div>
+
+        <div class="servicos_caixa_tatto">
+            <h2>Tatto</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque blanditiis similique voluptates sunt illo
+                quisquam nemo natus voluptate, harum nam reiciendis ratione est. Aliquam molestiae, repellat magni rerum
+                iste eos?</p>
+        </div>
+        <div class="servicos_caixa_pintura">
+            <h2>Pintura</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque blanditiis similique voluptates sunt illo
+                quisquam nemo natus voluptate, harum nam reiciendis ratione est. Aliquam molestiae, repellat magni rerum
+                iste eos?</p>
+        </div>       
+    </div>
+ </main>
+
+
+
+    <footer id="rodape" class="rodape">
+        <p>BARBEARIA © 2023. All Rights Reserveds.</p>
+    </footer>
+
+    <div id="caixa-rodape-fundo">
+        <div class="rodape-infor">
+            <div class="icones_rodape">
+                <img class="icon-rodape" src="./img/rodape/email.ico" alt="email">
+                <img class="icon-rodape" src="./img/rodape/Whatsapp.ico" alt="Whatsapp">
+                <img class="icon-rodape" src="./img/rodape/maps.ico" alt="maps">
             </div>
-
-            <div class="rodape-paginas">
-                <h2>Paginas</h2>
-                <section>
-                    <ul>
-                        <li><a href="index.html">INICIO</a></li>
-                        <li><a href="servicos.html">SERVIÇOS</a></li>
-                        <li><a href="sobre.html">SOBRE</a></li>
-                        <li><a href="contato.html">CONTATO</a></li>
-                    </ul>
-                </section>
+            <div class="icones-texto">
+                <p><strong>Email: </strong>jonatasgomes065@gmail.com</p>
+                <br>
+                <p><strong>Whatsapp: </strong><a href="https://wa.me/5571986917919" target="_blank">(71) 986917919</a>
+                </p>
+                <br>
+                <p><strong>Localização: </strong><a href="https://goo.gl/maps/SSzcTn8mT8K5NmjWA" target="_blank">NossaSra. da Boa Esperança, 2-98 - Alto do Cabrito, Salvador - BA, 40484-825</a></p>
 
             </div>
         </div>
-        
-        
-        
-    </body>
+
+        <div class="rodape-paginas">
+            <h2>Paginas</h2>
+            <section>
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="servicos.html">SERVIÇOS</a></li>
+                    <li><a href="sobre.html">SOBRE</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
+                </ul>
+            </section>
+
+        </div>
+
+        <div id="forma_pagamento">
+            <h3>Forma de Pagamento</h3>
+            <img src="./img/card.png" alt="Forma de pagamento">
+        </div>
+    </div>
+
+<script src="js/script.js"></script>
+
+</body>
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
 </html>

@@ -1,63 +1,130 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/css/reset.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/style_img.css">
-        <link rel="stylesheet" href="css/efeitos.css">
-        <link rel="shortcut icon" href="img/barbearia.ico" type="image/x-icon">
-        <title>BARBEARIA</title>
-    </head>
 
-    <body>
-             <!-- Cabeçalho -->       
-            <header id="topo">
-                <h1 class="topo-texto">BARBEARIA</h1>
-            </header>
-            <!-- menu -->
-            <nav id="menu">
-                <ul>
-                    <li class="layout-botao"><a href="index.html">INICIO</a></li>
-                    <li class="layout-botao"><a href="sobre.html">SOBRE</a></li>
-                    <li class="layout-botao"><a href="servicos.html">SERVIÇOS</a></li>
-                    <li class="layout-botao"><a href="contato.html">CONTATO</a></li>
-                </ul>
-            </nav>   
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/style_img.css">
+    <link rel="stylesheet" href="css/efeitos.css">
+    <link rel="shortcut icon" href="img/barbearia.ico" type="image/x-icon">
+    <title>BARBEARIA</title>
+</head>
 
+<body>
+    <!-- Cabeçalho -->
+    <header id="topo">
+        <h1 class="topo-texto">BARBEARIA</h1>
+    </header>
 
+    <!-- menu -->
+    <nav id="menu">
+        <ul>
+            <li class="layout-botao"><a class="botao-inicio" href="index.html">INICIO</a></li>
+            <li class="layout-botao"><a href="sobre.html">SOBRE</a></li>
+            <li class="layout-botao"><a href="servicos.html">SERVIÇOS</a></li>
+            <li class="layout-botao"><a href="contato.html">CONTATO</a></li>
+        </ul>
+    </nav>
 
-            <footer id="rodape" class="rodape">
-                <p>BARBEARIA © 2023. All Rights Reserveds.</p>
-            </footer>
-    
-            <div id="caixa-rodape-fundo">
-                <div class="rodape-infor">
-                    <div class="icones_rodape">
-                        <img class="icon-rodape" src="img/rodape/email.ico" alt="email">
-                        <img class="icon-rodape" src="img/rodape/Whatsapp.ico" alt="Whatsapp">
-                    </div>
-                    <div class="icones-texto">
-                        <p><strong>Email: </strong>jonatasgomes065@gmail.com</p>
-                        <br>
-                        <p><strong>Whatsapp: </strong>(71) 9 8691-7919</p>
-                    </div>
-                </div>
-    
-                <div class="rodape-paginas">
-                    <h2>Paginas</h2>
-                    <section>
-                        <ul>
-                            <li><a href="index.html">INICIO</a></li>
-                            <li><a href="servicos.html">SERVIÇOS</a></li>
-                            <li><a href="sobre.html">SOBRE</a></li>
-                            <li><a href="contato.html">CONTATO</a></li>
-                        </ul>
-                    </section>
-    
-                </div>
+<main>
+    <!-- Caixa de fundo -->
+    <div id="contato-caixa-fundo">
+        <!-- Caixa do meio -->
+        <div id="contato-caixa-meio">
+            <div class="contato-caixa-info">
+                <h1>Fale conosco</h1>
+                <p>Envie dúvidas e sugestões através dos nossos canais de atendimento</p>
             </div>
-    </body>
+            <div id="contato-caixa-info-dados">
+                <div>
+                    <img class="contato-caixa-info-icon" src="img/rodape/email.ico" alt="Email">
+                    <br>
+                    <img class="contato-caixa-info-icon" src="img/rodape/Whatsapp.ico" alt="Whatsapp">
+                    <br>
+                    <img class="contato-caixa-info-icon" src="img/rodape/maps.ico" alt="Maps">        
+                </div>
+
+                <div class="contato-caixa-dados">
+                    <p><a href="mailto:Eduardofreitasfr@gmail.com">Eduardofreitasfr@gmail.com</a></p>
+                   
+                    <p><a href="https://wa.me/5571986917919" target="_blank">(71) 98159-0149</a></p>
+                   
+                    <p><a href="https://goo.gl/maps/SSzcTn8mT8K5NmjWA" target="_blank">Nossa Sra. da Boa Esperança, 2-98 - Alto do Cabrito, Salvador - BA, 40484-825</a></p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="formulario-contato">
+            <form action="enviar.php" method="post">
+            
+                <input type="text" class="caixa-form-text" placeholder="Nome" required>
+                
+                <input type="text" class="caixa-form-text" placeholder="Titulo" required>
+                <input type="email" class="caixa-form-text" placeholder="Email" required>
+             
+                <textarea class="caixa-form-mensagem" rows="10" placeholder="Digite sua mensagem"></textarea>  
+               
+                <button class="button-enviar" type="submit"><strong>Enviar</strong></button>
+            </form>
+            
+        </div>
+
+    </div>
+</main>
+    
+    <footer id="rodape" class="rodape">
+        <p>BARBEARIA © 2023. All Rights Reserveds.</p>
+    </footer>
+
+    <div id="caixa-rodape-fundo">
+        <div class="rodape-infor">
+            <div class="icones_rodape">
+                <img class="icon-rodape" src="/img/rodape/email.ico" alt="email">
+                <img class="icon-rodape" src="/img/rodape/Whatsapp.ico" alt="Whatsapp">
+                <img class="icon-rodape" src="/img/rodape/maps.ico" alt="maps">
+            </div>
+            <div class="icones-texto">
+                <p><strong>Email: </strong>jonatasgomes065@gmail.com</p>
+                <br>
+                <p><strong>Whatsapp: </strong><a href="https://wa.me/5571986917919" target="_blank">(71) 986917919</a>
+                </p>
+                <br>
+                <p><strong>Localização: </strong><a href="https://goo.gl/maps/SSzcTn8mT8K5NmjWA" target="_blank">Nossa
+                        Sra. da Boa Esperança, 2-98 - Alto do Cabrito, Salvador - BA, 40484-825</a></p>
+
+            </div>
+        </div>
+
+        <div class="rodape-paginas">
+            <h2>Paginas</h2>
+            <section>
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="servicos.html">SERVIÇOS</a></li>
+                    <li><a href="sobre.html">SOBRE</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
+                </ul>
+            </section>
+
+        </div>
+        <div id="forma_pagamento">
+            <h3>Forma de Pagamento</h3>
+            <img src="/img/card.png" alt="Forma de pagamento">
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@1,900&display=swap" rel="stylesheet">   
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
 </html>

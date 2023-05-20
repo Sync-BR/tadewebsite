@@ -1,3 +1,20 @@
+/* Formatação da imagem */
+.img-slider{
+    width: 100%;
+    opacity: 0.7;
+   
+}
+
+
+/* Pagina Sobre */
+.sobre-perfil-fotos{
+    border:1px solid white;
+    border-radius: 10px;
+    width: 100px;
+    margin-bottom: 2px;
+    padding: 2px;
+}
+
 
 .icon-rodape{
     width: 36px;
@@ -12,75 +29,8 @@
     filter: blur(2px);
 }
 
-.caixa-servicos-cabelo img{
-    background-color: rgb(20, 20, 20, 0.2);
-    border: 1px solid white;
-    border-top-color: aqua;
-    border-left-color: yellow;
-    border-bottom-color: aquamarine;
-    border-right-color: rgb(198, 236, 59);
-    border-radius: 20px;
-    margin-top: 40px;
-    
-    
-}
-
-.servicos_img_principal{
-    background-color: rgba(247, 223, 6, 0.803);
-    width: 92px;
-    height: 92px;
-    border:2px solid black;
-    border-radius: 10px;
-}
-
-.caixa-servicos-quimica img{
-    background-color: rgb(20, 20, 20, 0.2);
-    border: 1px solid white;
-    border-top-color: aqua;
-    border-left-color: yellow;
-    border-bottom-color: aquamarine;
-    border-right-color: rgb(198, 236, 59);
-    border-radius: 20px;
-    margin-top: 40px;
-}
-
-.caixa-servicos-tatuagem img{
-    background-color: rgb(20, 20, 20, 0.2);
-    border: 1px solid white;
-    border-top-color: aqua;
-    border-left-color: yellow;
-    border-bottom-color: aquamarine;
-    border-right-color: rgb(198, 236, 59);
-    border-radius: 20px;
-    margin-top: 40px;
-}
-.caixa-servicos-barba img{
-    background-color: rgb(20, 20, 20, 0.2);
-    border: 1px solid white;
-    border-top-color: aqua;
-    border-left-color: yellow;
-    border-bottom-color: aquamarine;
-    border-right-color: rgb(198, 236, 59);
-    border-radius: 20px;
-    margin-top: 40px;
-}
 
 
-.foto-user{
-    width: 105px;
-    height: 98px;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 150px;
-}
-
-#user-foto{
-background-color: transparent;
-}
-
-.servicos-icones-imagem-barba{
-    width: 100px;
-    height: 100px;
-}
 
 
 

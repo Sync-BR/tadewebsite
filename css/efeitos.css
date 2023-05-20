@@ -1,188 +1,232 @@
-/* Efeitos */
+/* Efeito de promoção */
+.promocao_info_amigo1:hover{
+    zoom: 1.02;
+    background-color: transparent;
+    cursor: pointer;
+}
+.promocao_info_amigo2:hover{
+    zoom: 1.02;
+    background-color: transparent;
+    cursor: pointer;
+}
+.promocao_info_amigo3:hover{
+    zoom: 1.02;
+    background-color: transparent;
+    cursor: pointer;
+}
 
-.rodape-paginas a:hover{
+.perfil1:hover{
+   zoom: 1.2;
+   
+}
+/* Efeito combo */
+.combo-cabelo-barba:hover{
+    zoom: 1.06;
+    border: 1px solid yellow;
+    background-color: rgb(232, 210, 39, 0.2);
+}
+    .combo-cabelo-barba p::selection{
+        background-color: #48194d;
+        color: red;
+    }
+
+.combo-cabelo-barba-sobracelha:hover{
+    zoom: 1.06;
+    border: 1px solid yellow;
+    background-color: rgb(232, 210, 39, 0.2);
+}
+    .combo-cabelo-barba-sobracelha p::selection{
+        background-color: #48194d;
+        color: red;
+    }
+.combo-cabelo-barba-pintura:hover{
+    zoom: 1.06;
+    border: 1px solid yellow;
+    background-color: rgb(232, 210, 39, 0.2);
+}
+    .combo-cabelo-barba-pintura p::selection{
+        background-color: #48194d;
+        color: red;
+    }
+/* Fim do efeito do combo */
+
+
+.icones-texto p:hover {
+    zoom: 1.06;
+   
+}
+
+.rodape-paginas a:hover {
     text-decoration: underline;
     padding-left: 2px;
     font-size: 20px;
 }
-.caixa_contato:hover{
-    background-color:rgb(154, 205, 50,0.8);
- 
+
+
+
+.rodape_sobre:hover {
+    background-color: rgb(154, 205, 50, 0.8);
 }
 
-
-.rodape_sobre:hover{
-    background-color:rgb(154, 205, 50,0.8);
-}
-
-.caixa-servicos-cabelo img:hover{
+.caixa-servicos-cabelo img:hover {
     transition: 2s;
-    background-color: rgb(72, 25, 77,0.4);
+    background-color: rgb(72, 25, 77, 0.4);
     width: min-content;
-    
-}
-.caixa-servicos-barba img:hover{
-    transition: 2s;
-    background-color: rgb(72, 25, 77,0.4);
-    width: min-content;
-    
-}
-.caixa-servicos-quimica img:hover{
-    transition: 2s;
-    background-color: rgba(72, 25, 77,0.4);
-    width: min-content;
-    
+
 }
 
-.caixa-servicos-tatuagem img:hover{
+.caixa-servicos-barba img:hover {
     transition: 2s;
-    background-color: rgb(72, 25, 77,0.4);
+    background-color: rgb(72, 25, 77, 0.4);
     width: min-content;
-    
+
 }
 
-.titulo-legenda::selection{
-    
+.caixa-servicos-quimica img:hover {
+    transition: 2s;
+    background-color: rgba(72, 25, 77, 0.4);
+    width: min-content;
+
+}
+
+.caixa-servicos-tatuagem img:hover {
+    transition: 2s;
+    background-color: rgb(72, 25, 77, 0.4);
+    width: min-content;
+
+}
+
+.titulo-legenda::selection {
+
     background-color: rgb(72, 25, 77);
 }
 
-.texto-legenda::selection{
+.texto-legenda::selection {
     background-color: #48194d;
-    
+
 }
 
-#caixa-imagem h2::selection{
+#caixa-imagem h2::selection {
     background-color: #48194d;
     width: 40px;
-    color:white;
+    color: white;
     opacity: 0.8px;
 }
 
-#rodape p ::selection{
+#rodape p ::selection {
     background-color: #0f0f0f91;
     color: white;
-    
+
 }
-#menu:hover{
+/* Efeito do menu */
+#menu:hover {
     transition: 2s;
-    background-color: rgb(0, 0, 0,0.5);
     border-bottom: 1px solid yellow;
 }
+    #menu li:hover {
+        transition: 1s;
+        text-decoration: underline;
+    }
+    #menu a:hover {
+        text-shadow: -4px 0 black, 3px 1px black;
+        transition: 2s;
+        color: rgb(255, 219, 12);
+    }
 
-#menu li:hover{
-    transition: 1s;
-    border: 1px solid white;
-    background-color: #48194d;
-    text-decoration: underline;
-}
 
-#menu a:hover{
-    text-shadow: -4px 0 black, 3px 1px black;
-    transition: 2s;
-    color: rgb(255, 219, 12);
-}
-
-.legenda:hover{
-    
-    transition: 4s;
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 50px;
-    width: 500px;
-    padding: 10px;
-}
-.legenda:hover h2{
-    
-    margin-bottom: 5px;
-    font-size: 40px;
-    text-shadow: -1px 0 0 0 black;
-}
-
-.titulo-legenda:hover{
-    transition: 2s;
-    color: rgb(255, 255, 255);
-    opacity: 0.7;
-    font-size: 35px;
-    
-    
-}
-
-.texto-legenda:hover{
-    transition: 2s;
-    color: rgb(255, 255, 255);
-    opacity: 0.9;
-    text-align: start;
-    font-size: 18px;
-    width: 500px;
-    height: 400px;
-    text-shadow: -2px 0 rgb(0, 0, 0);
-
-}
-.foto-user:hover{
-    transition: 1s;
-    border: 1px solid red;
-    opacity: 0.8;
-    margin-left: 5px;
-    margin-top: 5px;
-    border-radius: 10px;
-    filter: opacity(5px);
-    zoom: 1.1;
-    width: 90px;
-    height: 80px;
-}
-
-.img-slider:hover{
-    transition: 1s;
-    filter:blur(2px);
-    border: 5px solid rgba(255, 255, 255);
-    border-radius: 20px;
-    border-top-right-radius: 50px;
-    border-top-color: rgb(232, 210, 39, 0.5);
-    border-bottom-color:rgb(232, 210, 39, 0.5) ;
-    
-}
-
-#rodape p::selection{
-    background-color: #48194d;
-    color:white;
-}
-
-#rodape:hover{
-    font-size: 14px;
-    bottom: 2px;
-    background-color: rgb(0, 0, 0,0.4);
-    color: wheat;
-    text-shadow: -2px 1px black;
-  
-    
-}
-
-.slider-botao:hover{
-    transition: 1s;
-    background-color: rgb(255, 255, 0,0.6);
-    color: #48194d;
-}
-
-.slider-botao a:hover{
-    color: #ffffff;
-}
+ 
 
 
 
 /* PAGINA DE SERVIÇOS */
 
-.servico-linha-tabela:hover{
-    zoom: 1.1   ;
+.servico-linha-tabela:hover {
+    zoom: 1.1;
     background-color: #c90ab079;
-    color:rgb(248, 240, 7);
+    color: rgb(248, 240, 7);
     font-family: 20px;
     text-shadow: -2px 1px rgb(12, 12, 12);
 }
 
-.servicos-icones-all:hover{
+.servicos-icones-all:hover {
     zoom: 1.2;
     cursor: pointer;
     transition: 2s;
     background-color: rgba(255, 255, 255, 0.44);
-    border:2px solid yellow;    
+    border: 2px solid yellow;
     border-radius: 15px;
+}
+
+
+/* Efeitos do servicos */
+.servicos_caixa_cabelo:hover {
+    background-image: url(https://barbearialafirma.com.br/site/wp-content/uploads/2016/07/corte-de-cabelo-na-barbearia-370x493.jpg);
+    background-size: cover;
+    border: 2px solid yellow;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-shadow: 2px -1px 1px rgb(58, 58, 58);
+
+}
+
+.servicos_caixa_cabelo p:hover {
+    background-color: rgb(0, 0, 0, 0.46);
+    
+}
+
+.servicos_caixa_barba:hover {
+    background-image: url(https://barbearialafirma.com.br/site/wp-content/uploads/2016/07/Fa%C3%A7a-a-Barba-na-La-Firma-370x493.png);
+    background-size: cover;
+    border: 2px solid yellow;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-shadow: 2px -1px 1px rgb(58, 58, 58);
+}
+
+.servicos_caixa_barba p:hover {
+    background-color: rgb(0, 0, 0, 0.26);
+}
+
+.servicos_caixa_sobracelha:hover {
+    background-image: url(https://thumb-cdn.soluall.net/prod/shp_products/sp760fw/62c318cb-7ccc-42a3-9a4a-7f93ac1e09ff/62c318cb-3108-4fc2-bd1b-7f93ac1e09ff.jpg);
+    background-size: cover;
+    border: 2px solid yellow;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-shadow: 2px -1px 1px rgb(58, 58, 58);
+}
+
+.servicos_caixa_sobracelha p:hover {
+    background-color: rgb(0, 0, 0, 0.26);
+}
+
+.servicos_caixa_tatto:hover {
+    background-image: url(https://noticiasconcursos.com.br/wp-content/uploads/2022/06/noticiasconcursos.com.br-franquia-de-barbearia-opcao-em-alta-para-investir-franquia-de-barbearia-opcao-em-alta-para-investir-reproducao-canva.jpg);
+    background-size: cover;
+    border: 2px solid yellow;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-shadow: 2px -1px 1px rgb(58, 58, 58);
+}
+
+.servicos_caixa_tatto p:hover {
+    background-color: rgb(0, 0, 0, 0.26);
+}
+
+.servicos_caixa_pintura:hover {
+    background-image: url(https://cortesdecabelo2020.com/wp-content/uploads/2020/05/Muzhchiny-s-sedinoyu-na-viskah-ili-pepelnoe-okrashivanie.jpg);
+    background-size: cover;
+    border: 2px solid yellow;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-shadow: 2px -1px 1px rgb(58, 58, 58);
+}
+
+.servicos_caixa_pintura p:hover {
+    background-color: rgb(0, 0, 0, 0.26);
 }
