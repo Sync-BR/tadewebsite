@@ -13,6 +13,7 @@
 }
 .rodape-details summary{
     font-family: 'Playfair Display', serif;
+    width: max-content;
     color: white;
     cursor: pointer;
      

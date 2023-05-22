@@ -1,17 +1,23 @@
-#sobre{
-    background-color: white;
+#sobre{ 
+    background-color:rgb(160, 86, 43);
+    border-radius: 1px;
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 400px;
+    height:300px;
     border: 1px solid white;
     margin-top: 2px;
     margin-bottom: 2px;
 }
+    #sobre img{
+        width: 50%;
+    }
+
     .sobre-texto h2{
         margin-top: 25px;
         margin-left: 300px;
-        color: black;
+        margin-bottom: 15px;
+        color: white;
         font-family: 'Libre Baskerville', serif;
         font-size: 40px;
     }
@@ -19,13 +25,13 @@
         padding-right: 25px;
         padding-left: 25px;
         text-align: justify;
-        color: black;
+        color: white;
         font-family: 'Roboto', sans-serif;
    
     }
 .botao-contato{
     margin-left: 300px;
-    margin-top: 50px;
+    margin-top: 20px;
     border-radius: 20px;
     border: 1px solid  rgba(0, 0, 0, 0.491);
     width: 120px;

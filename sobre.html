@@ -2,16 +2,17 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/css/reset.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/style_img.css">
-        <link rel="stylesheet" href="css/sobre.css">
-        <link rel="stylesheet" href="css/efeitos.css">
-        <link rel="shortcut icon" href="img/barbearia.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/sobre.css">
+        <link rel="stylesheet" href="./css/style_img.css">
+        <link rel="stylesheet" href="./css/efeitos.css">
+        <link rel="stylesheet" href="./css/alunos.css">
+        <link rel="shortcut icon" href="./img/barbearia.ico" type="image/x-icon">
         <title>BARBEARIA</title>
-    </head>
+    </head>   
 
     <body>
          <!-- Cabeçalho -->       
@@ -22,7 +23,7 @@
         <nav id="menu">
             <ul>
                 <li class="layout-botao"><a href="index.html">INICIO</a></li>
-                <li class="layout-botao"><a href="sobre.html">SOBRE</a></li>
+                <li class="layout-botao"><a href="#topo">SOBRE</a></li>
                 <li class="layout-botao"><a href="servicos.html">SERVIÇOS</a></li>
                 <li class="layout-botao"><a href="contato.html">CONTATO</a></li>
             </ul>
@@ -33,9 +34,9 @@
             <article id="sobre">
                 <img src="./img/sobre/sobre.jpg" alt="Sobre">
                 <div class="sobre-texto">
-                    <h2>Sobre</h2>
+                    <h2>Sobre:</h2>
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil sit veniam officiis! Iste itaque similique eaque corporis qui quidem totam voluptate quod molestias sint. Amet cum temporibus recusandae incidunt voluptatum.
+                        Bem-vindo à nossa barbearia, onde estilo e cuidado se encontram! Nossos barbeiros especializados oferecem cortes de cabelo e barba de alta qualidade, desde estilos clássicos até os mais modernos. Com atendimento personalizado, criamos um ambiente acolhedor para você relaxar enquanto cuida de si mesmo. Além dos serviços, também oferecemos tratamentos faciais e produtos exclusivos para cuidados com a pele e barba. Agende seu horário e faça parte da nossa comunidade de homens elegantes e bem-cuidados. Seu estilo é nossa paixão!
                     </p>
 
                     <button class="botao-contato" type="button"><a href="contato.html">Contato</a></button>
@@ -127,47 +128,69 @@
 
         </main>
 
-        <footer id="rodape" class="rodape">
-            <p>BARBEARIA © 2023. All Rights Reserveds.</p>
-        </footer>
-    
-        <div id="caixa-rodape-fundo">
-            <div class="rodape-infor">
-                <div class="icones_rodape">
-                    <img class="icon-rodape" src="./img/rodape/email.ico" alt="email">
-                    <img class="icon-rodape" src="./img/rodape/Whatsapp.ico" alt="Whatsapp">
-                    <img class="icon-rodape" src="./img/rodape/maps.ico" alt="maps">
-                </div>
-                <div class="icones-texto">
-                    <p><strong>Email: </strong>jonatasgomes065@gmail.com</p>
-                    <br>
-                    <p><strong>Whatsapp: </strong><a href="https://wa.me/5571986917919" target="_blank">(71) 986917919</a>
-                    </p>
-                    <br>
-                    <p><strong>Localização: </strong><a href="https://goo.gl/maps/SSzcTn8mT8K5NmjWA" target="_blank">Nossa
-                            Sra. da Boa Esperança, 2-98 - Alto do Cabrito, Salvador - BA, 40484-825</a></p>
-    
-                </div>
-            </div>
-    
-            <div class="rodape-paginas">
-                <h2>Paginas</h2>
-                <section>
-                    <ul>
-                        <li><a href="index.html">INICIO</a></li>
-                        <li><a href="servicos.html">SERVIÇOS</a></li>
-                        <li><a href="sobre.html">SOBRE</a></li>
-                        <li><a href="contato.html">CONTATO</a></li>
-                    </ul>
-                </section>
-    
-            </div>
-            <div id="forma_pagamento">
-                <h3>Forma de Pagamento</h3>
-                <img src="./img/card.png" alt="Forma de pagamento">
-            </div>
+  <!-- Rodape -->
+  <footer id="rodape" class="rodape">
+    <p>BARBEARIA © 2023. All Rights Reserveds.</p>
+</footer>
+
+<!-- Alunos -->
+<div id="rodape-alunos">
+    <details class="rodape-details">
+        <summary>
+           Alunos
+        </summary>
+            <p>
+                Caio Jesus de Carvalho <br>
+                David Santana de Oliveira <br>
+                Eduardo Freitas da Silva Santos <br>
+                Elton Moreira Santos <br>
+                Gian Felipe Andrade dos Santos <br>
+                Ismael Santos Bomfim <br>
+                Thiago Santos Arruda de Souza <br>
+            </p>
+    </details>
+
+
+
+</div>
+<!-- Fim -->
+
+<div id="caixa-rodape-fundo">
+    <div class="rodape-infor">
+        <div class="icones_rodape">
+            <img class="icon-rodape" src="./img/rodape/email.ico" alt="email">
+            <img class="icon-rodape" src="./img/rodape/Whatsapp.ico" alt="Whatsapp">
+            <img class="icon-rodape" src="./img/rodape/maps.ico" alt="maps">
         </div>
-    
+        <div class="icones-texto">
+            <p><strong>Email: </strong>jonatasgomes065@gmail.com</p>
+            <br>
+            <p><strong>Whatsapp: </strong><a href="https://wa.me/5571986917919" target="_blank">(71) 986917919</a>
+            </p>
+            <br>
+            <p><strong>Localização: </strong><a href="https://goo.gl/maps/SSzcTn8mT8K5NmjWA" target="_blank">NossaSra. da Boa Esperança, 2-98 - Alto do Cabrito, Salvador - BA, 40484-825</a></p>
+
+        </div>
+    </div>
+
+    <div class="rodape-paginas">
+        <h2>Paginas</h2>
+        <section>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="servicos.html">SERVIÇOS</a></li>
+                <li><a href="sobre.html">SOBRE</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+        </section>
+
+    </div>
+
+    <div id="forma_pagamento">
+        <h3>Forma de Pagamento</h3>
+        <img src="./img/card.png" alt="Forma de pagamento">
+    </div>
+</div>
 
 <!-- Fonts -->
     <!-- Roboto Slab SemiNegrito 600 -->
