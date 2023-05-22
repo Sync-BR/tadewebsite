@@ -21,6 +21,8 @@
  .rodape-details p{
     margin-left: 25px;
     font-family: 'Playfair Display', serif;
+    cursor: context-menu;
+    width: max-content;
  }
     .rodape-details p::selection{
         background-color: blueviolet;
