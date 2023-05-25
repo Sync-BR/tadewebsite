@@ -7,6 +7,7 @@ body{
 }
 main{
     width: auto;
+    
 }
 
 
@@ -15,7 +16,10 @@ main{
         margin-right: 130px;
     }
 
-    
+.galeria-imagens{
+    gap:10%;
+
+}
 #inicio-promocao{
 
     padding: 0%; 
@@ -81,9 +85,12 @@ main{
     }
 
     #servicos_caixa_index{
+        flex-direction:row ;
         flex-wrap: wrap;
-        
+        gap: 20%;
     }
+
+        
     .servicos_caixa_cabelo{
         margin-bottom: 10px;
     }
@@ -133,11 +140,16 @@ main{
         
     }
     .servicos_caixa_pintura{
-        font-size: 14px;
-        text-align: left;
-        width: 180px;
-        height: 180px;
+        position: absolute;
+        margin-top: 15%;
         
+    }
+
+
+    /* rodape */
+    .icones-texto{
+        width: 340px;
+
     }
 
 }
