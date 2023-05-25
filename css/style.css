@@ -1,5 +1,6 @@
 /* Formatação plano de fundo */
 body{
+    scroll-behavior: smooth;
     background-size: cover;
     background-image: url(/img/fundo.jpg);
     background-color: #000000;
@@ -41,6 +42,7 @@ body{
     border-bottom: 1px solid white;
     padding-left: 5px;
     padding-right: 5px;
+    padding-bottom: 25px;
     height: max-content;
     background-color: rgba(255, 255, 255, 0.128);
 }
@@ -96,6 +98,33 @@ body{
     
    
 /* Fim do teste */
+/* Galeria */
+#galeria{
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+ 
+}
+    .galeria-imagens{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width:100%;
+        gap: 5px;
+    }
+    .galeria-texto h2{
+        text-align: center;
+        font-family: 'Aoboshi One', serif;  
+        font-size: 30px;  
+
+    }
+    #galeria img{
+        width: 180px;
+        height: min-content;
+    }
+
 
 /* Formatação do cabeçalho*/
     #topo{
@@ -195,7 +224,7 @@ body{
             #btnservicos{
                 text-align: center;
                 margin-top: 20px;
-                margin-left: 40%;
+                margin-left: 0;
                 background-color: rgb(232, 210, 39, 0.5);
                 width: 220px;
                 height: 40px;
@@ -233,7 +262,8 @@ body{
             color: yellow;
         }
         .inicio-mensagem p{
-            text-align: justify;
+            text-align: center;
+            
             padding-left: 10px;
             padding-right: 10px;
             font-family: 'Roboto Slab', serif;
@@ -250,7 +280,7 @@ body{
     background-color: rgb(0, 0, 0,0.92);
     padding: 2px;
     width: 100%;
-    height: 300px;
+    height: 320px;
 }
         .inicio-promocoes-texto{
             justify-content: center;
@@ -271,6 +301,7 @@ body{
             border-radius: 20px;
             margin-left: 10px;
             margin-right: 125px;
+            margin-bottom: 10px;
             padding-top: 10px;
             padding-left: 10px;
             width: 99%;
@@ -281,7 +312,7 @@ body{
             font-size: 18px;        
         }
         #inicio-promocoes-info{
-            display: flex;
+            display: flex;  
             flex-direction: row;
             justify-content: space-around;
             margin-top: 10px;
@@ -295,19 +326,23 @@ body{
         height: 100px;
         padding-top: 15px;
         text-align: center;
-        background-color: rgb(232, 210, 39, 0.5);
+        background-color:rgba(196, 133, 8, 0.984);
     }
     .combo-cabelo-barba h2{
         text-decoration: none;
-        text-shadow: -1px 2px black;
+        color: white;
         font-family: 'Libre Baskerville', serif;
         font-size: 18px;
+        text-shadow: -1px -1px black;
+
     }
     .combo-cabelo-barba h3 {
         margin-top: 10px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
-        text-shadow: -2px 1px black;
+        color: white;
+        text-shadow: -1px -1px black;
+
     }
     .combo-cabelo-barba p{
         margin-top: 10px;
@@ -327,7 +362,7 @@ body{
         height: 100px;
         padding-top: 15px;
         text-align: center;
-        background-color: rgb(232, 210, 39, 0.5);
+        background-color:rgba(196, 133, 8, 0.984);
     }
     .combo-cabelo-barba-sobracelha h2{
         text-decoration: none;
@@ -354,7 +389,7 @@ body{
         height: 100px;
         padding-top: 15px;
         text-align: center;
-        background-color: rgb(232, 210, 39, 0.5);
+        background-color:rgba(196, 133, 8, 0.984);
     }
     .combo-cabelo-barba-pintura h2{
         text-decoration: none;
@@ -372,6 +407,7 @@ body{
     .combo-cabelo-barba-pintura p{
         margin-top: 10px;
         font-size: 10px;
+        
     }
 
 /* Formatação da caixa de servicos */
@@ -382,19 +418,23 @@ body{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 240px;
+    height: max-content;
     border:1px solid white;
     color: black;
 }
     .servicos_caixa_cabelo{
+        
         padding: 10px;
         background-color: rgba(196, 133, 8, 0.984);
         width: 220px;
-        height: max-content;
+        height: 220px;
         border-radius: 40px;
     }
         .servicos_caixa_cabelo h2{
            text-align: center;
+        }
+        .servicos_caixa_cabelo p{
+            text-align: center;
         }
     .servicos_caixa_barba{
         padding: 10px;
@@ -405,6 +445,9 @@ body{
 
     }
         .servicos_caixa_barba h2{
+            text-align: center;
+        }
+        .servicos_caixa_barba p{
             text-align: center;
         }
     .servicos_caixa_sobracelha{
@@ -418,8 +461,13 @@ body{
         .servicos_caixa_sobracelha h2{
             text-align: center;
         }
+        .servicos_caixa_sobracelha p{
+            width: 200px;
+            text-align: center;
+            font-size: 15px;
+        }
         .servicos_caixa_tatto{
-            padding: 10px;
+            padding: 15px;
             background-color: rgba(196, 133, 8, 0.984);
             width: 220px;
             height: 220px;
@@ -428,6 +476,11 @@ body{
         }
             .servicos_caixa_tatto h2{
                 text-align: center;
+            }
+            .servicos_caixa_tatto p{
+                width: 200px;
+                text-align: center;
+                font-size: 14px;
             }
             .servicos_caixa_pintura{
                 padding: 10px;
@@ -440,12 +493,22 @@ body{
             .servicos_caixa_pintura h2{
                 text-align: center;
             }
+            .servicos_caixa_pintura p{
+                width: 200px;
+                text-align: left;
+                font-size: 15px;
+            }
 
 
 /* Formatação da caixa sobre */
+
+
 /* Sobre */
+
 .sobre_texto{
     margin-left: 200px;
+    width: 100%;
+    height: min-content;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
 }

@@ -23,7 +23,7 @@
 .combo-cabelo-barba:hover{
     zoom: 1.06;
     border: 1px solid yellow;
-    background-color: rgb(232, 210, 39, 0.2);
+    background-color:rgba(162, 112, 13, 0.984);
 }
     .combo-cabelo-barba p::selection{
         background-color: #48194d;
@@ -33,7 +33,7 @@
 .combo-cabelo-barba-sobracelha:hover{
     zoom: 1.06;
     border: 1px solid yellow;
-    background-color: rgb(232, 210, 39, 0.2);
+    background-color:rgba(162, 112, 13, 0.984);
 }
     .combo-cabelo-barba-sobracelha p::selection{
         background-color: #48194d;
@@ -42,7 +42,7 @@
 .combo-cabelo-barba-pintura:hover{
     zoom: 1.06;
     border: 1px solid yellow;
-    background-color: rgb(232, 210, 39, 0.2);
+    background-color:rgba(162, 112, 13, 0.984);
 }
     .combo-cabelo-barba-pintura p::selection{
         background-color: #48194d;
@@ -50,6 +50,10 @@
     }
 /* Fim do efeito do combo */
 
+#galeria img:hover{
+    border-radius: 10px;
+    zoom: 1.1;
+}
 
 .icones-texto p:hover {
     zoom: 1.06;
@@ -160,73 +164,72 @@
 
 /* Efeitos do servicos */
 .servicos_caixa_cabelo:hover {
-    background-image: url(https://barbearialafirma.com.br/site/wp-content/uploads/2016/07/corte-de-cabelo-na-barbearia-370x493.jpg);
+    background-image: url(/img/cortes/corte_flavian.jpg);
     background-size: cover;
     border: 2px solid yellow;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
     text-shadow: 2px -1px 1px rgb(58, 58, 58);
 
 }
 
 .servicos_caixa_cabelo p:hover {
-    background-color: rgb(0, 0, 0, 0.46);
+    text-shadow: -2px -1px black;
     
 }
 
 .servicos_caixa_barba:hover {
-    background-image: url(https://barbearialafirma.com.br/site/wp-content/uploads/2016/07/Fa%C3%A7a-a-Barba-na-La-Firma-370x493.png);
+    background-image: url(/img/cortes/barba.jpg);
     background-size: cover;
     border: 2px solid yellow;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
     text-shadow: 2px -1px 1px rgb(58, 58, 58);
 }
 
 .servicos_caixa_barba p:hover {
-    background-color: rgb(0, 0, 0, 0.26);
+    text-shadow: -2px -1px black;
 }
 
 .servicos_caixa_sobracelha:hover {
-    background-image: url(https://thumb-cdn.soluall.net/prod/shp_products/sp760fw/62c318cb-7ccc-42a3-9a4a-7f93ac1e09ff/62c318cb-3108-4fc2-bd1b-7f93ac1e09ff.jpg);
+    background-image: url(/img/cortes/sobrancelha.jpg);
     background-size: cover;
     border: 2px solid yellow;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
     text-shadow: 2px -1px 1px rgb(58, 58, 58);
 }
 
 .servicos_caixa_sobracelha p:hover {
-    background-color: rgb(0, 0, 0, 0.26);
+    text-shadow: -2px -1px black;
 }
 
 .servicos_caixa_tatto:hover {
-    background-image: url(https://noticiasconcursos.com.br/wp-content/uploads/2022/06/noticiasconcursos.com.br-franquia-de-barbearia-opcao-em-alta-para-investir-franquia-de-barbearia-opcao-em-alta-para-investir-reproducao-canva.jpg);
+    background-image: url(/img/cortes/pintura.jpg);
     background-size: cover;
     border: 2px solid yellow;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
     text-shadow: 2px -1px 1px rgb(58, 58, 58);
+   
+
 }
 
 .servicos_caixa_tatto p:hover {
-    background-color: rgb(0, 0, 0, 0.26);
+    text-shadow: -2px -1px black;
+
+
 }
 
 .servicos_caixa_pintura:hover {
-    background-image: url(https://cortesdecabelo2020.com/wp-content/uploads/2020/05/Muzhchiny-s-sedinoyu-na-viskah-ili-pepelnoe-okrashivanie.jpg);
+    background-image: url(/img/cortes/pintura.jpg);
     background-size: cover;
     border: 2px solid yellow;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
     text-shadow: 2px -1px 1px rgb(58, 58, 58);
 }
 
 .servicos_caixa_pintura p:hover {
-    background-color: rgb(0, 0, 0, 0.26);
+    text-shadow: -2px -1px black;
 }

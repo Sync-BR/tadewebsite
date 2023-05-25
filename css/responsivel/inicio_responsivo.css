@@ -1,17 +1,18 @@
 @media (max-width: 768px) {
 *{
-    box-sizing: content-box;
-     
+    padding:   0;
+    margin: 0;
 }
 
 body{
-padding:10px;
-padding-bottom:500px;
 
+    width: 820px;
+    padding-bottom: 63%;
 }
 
-#menu{
 
+#menu{
+    width: 100%;
     text-align: left;
     padding-top: 5px;
 }
@@ -33,11 +34,13 @@ padding-bottom:500px;
 }
 
 .inicio-mensagem{
-
+    width: 100%;
     display: flex;
     flex-direction: column;
     background-color: transparent;
 }
+
+
 .todas-promocao{
     padding-bottom: 15px;
 }
@@ -47,6 +50,7 @@ padding-bottom:500px;
 }
 .todas-promocao p{
     font-size: 14px;
+    
 
 }
 
@@ -61,61 +65,77 @@ padding-bottom:500px;
 
 
     /* Promoções */
+    #inicio-promocoes{
+        width: min-content;
+        height: min-content;
+    }
 .inicio-promocoes-info p{
     margin: 0;
     padding: 0;
 }
 
     .combo-cabelo-barba:hover{
-        padding: 5px;
+        padding: 1px;
         margin: 0;
 
     }
     .combo-cabelo-barba-sobracelha:hover{
-        padding: 5px;
+        padding: 1px;
         margin: 0;
     }
         .combo-cabelo-barba-sobracelha h2{
             width: max-content;
         }
     .combo-cabelo-barba-pintura:hover{
-        padding: 5px;
+        padding: 1px;
         margin: 0;
     }
 
     #servicos_caixa_index{
-        display: grid;
+        flex-wrap: wrap;
+        
+    }
+    .servicos_caixa_cabelo{
+        margin-bottom: 10px;
+    }
 
+        .servicos_caixa_cabelo p {
+            font-size: 14px;
+            text-align: left;
+            width: 180px;
+            height: 180px;
+            
+        }
+    .servicos_caixa_barba{
+        margin-bottom: 10px;
     }
+        .servicos_caixa_barba p {
+            font-size: 14px;
+            text-align: left;
+            width: 180px;
+            height: 180px;
+        }
+    
+        .servicos_caixa_sobracelha{
+            margin-bottom: 10px;
+        }
+            .servicos_caixa_sobracelha p {
+            font-size: 14px;
+            text-align: left;
+            width: 180px;
+            height: 180px;
+        }
 
-    .servicos_caixa_cabelo p {
-        font-size: 14px;
-        text-align: left;
-        width: 180px;
-        height: 180px;
-        
-    }
-    .servicos_caixa_barba p {
-        font-size: 14px;
-        text-align: left;
-        width: 180px;
-        height: 180px;
-        
-    }
-    .servicos_caixa_sobracelha p {
-        font-size: 14px;
-        text-align: left;
-        width: 180px;
-        height: 180px;
-        
-    }
-    .servicos_caixa_tatto p {
-        font-size: 14px;
-        text-align: left;
-        width: 180px;
-        height: 180px;
-        
-    }
+        .servicos_caixa_tatto{
+            margin-bottom: 10px;
+        } 
+            .servicos_caixa_tatto p {
+                font-size: 14px;
+                text-align: left;
+                width: 180px;
+                height: 180px; 
+            }
+
     .servicos_caixa_sobracelha p {
         font-size: 14px;
         text-align: left;
@@ -130,4 +150,6 @@ padding-bottom:500px;
         height: 180px;
         
     }
+
 }
+

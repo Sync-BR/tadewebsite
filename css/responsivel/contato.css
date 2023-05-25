@@ -1,0 +1,29 @@
+@media  screen and (max-width: 768px) {
+  
+    body{
+        width: 100%;
+        margin-bottom: 68%;
+    }
+    main{
+        width: 100%;
+
+    }
+   
+    .contato-caixa-info h1{
+        position: relative;
+        margin-top: 10px;
+        left: 20px;
+    }
+    .contato-caixa-info p{
+        width: 200px;
+    }
+
+
+
+    #formulario-contato{
+        margin-left: 250px;
+        padding-bottom: 100px;
+    }
+    
+
+}

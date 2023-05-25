@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+
+*{
+    padding: 0;
+    padding-bottom: 0;
+    margin: 0;
+
+}
+
+body{
+    width: 1034px;
+}
+body main{
+    height: 450px;
+}
+
+#servicos_conteudo{
+    padding-right: 110px;
+}
+    .servico-tabela{
+       padding-left: 105px;
+    }
+ 
+}
