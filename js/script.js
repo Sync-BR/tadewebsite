@@ -26,3 +26,4 @@ function rolagemsessao() {
   var secao = document.getElementById("inicio-promocao");
   secao.scrollIntoView({ behavior: 'smooth' });
 }
+
