@@ -1,24 +1,19 @@
 @media (max-width: 768px) {
 
 *{
-    padding: 0;
-    padding-bottom: 0;
     margin: 0;
-
+    padding: 0%;
 }
+
 
 body{
-    width: 1034px;
-}
-body main{
-    height: 450px;
+    width: auto;
+    padding-bottom: 62%;
 }
 
-#servicos_conteudo{
-    padding-right: 110px;
+.servico-tabela table{
+    color: red;
+    background-color: aqua;
 }
-    .servico-tabela{
-       padding-left: 105px;
-    }
- 
 }
+

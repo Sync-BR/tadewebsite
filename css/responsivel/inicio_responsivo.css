@@ -1,25 +1,14 @@
 @media (max-width: 768px) {
-*{
-    padding:   0;
-    margin: 0;
-}
 
 body{
-
-    width: 820px;
+    width: 800px;
+    margin-right: 5px;
     padding-bottom: 63%;
 }
-
-
-#menu{
-    width: 100%;
-    text-align: left;
-    padding-top: 5px;
+main{
+    width: auto;
 }
-#caixa{
-    width: max-content;
-    
-}
+
 
     .texto-legenda{
         text-align: justify;
@@ -49,7 +38,7 @@ body{
     font-size: 18px;
 }
 .todas-promocao p{
-    font-size: 14px;
+    font-size: 13px;
     
 
 }
