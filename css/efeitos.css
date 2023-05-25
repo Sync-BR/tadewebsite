@@ -179,7 +179,7 @@
 }
 
 .servicos_caixa_barba:hover {
-    background-image: url(/./img/cortes/barba.jpg);
+    background-image: url(/img/cortes/barba.jpg);
     background-size: cover;
     border: 2px solid yellow;
     color: white;
