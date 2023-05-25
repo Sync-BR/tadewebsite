@@ -12,11 +12,11 @@
     <link rel="stylesheet" href="./css/efeitos.css">
     <link rel="stylesheet" href="./css/alunos.css">
     <link rel="shortcut icon" href="./img/barbearia.ico" type="image/x-icon">
-    <script src="js/script.js"></script>
+    <script src="./js/script.js"></script>
     <title>Jhon Cortes</title>
 </head>
 
-<body>
+<body onload="moverTitulo()">
     <!-- Cabeçalho -->
     <header id="topo">
         <h1 class="topo-texto">BARBEARIA</h1>
@@ -43,7 +43,7 @@
 
             </p>
                 <div class="slider-botao">
-                    <button id="btnservicos">
+                    <button id="btnservicos" onclick="rolagemsessao()">
                         <section>
                             <a>Promoções</a>
                         </section>
@@ -54,26 +54,7 @@
     </div>
 
 
-    <!-- Teste -->
-    <div id="inicio-promocao">
-        <h2>Promoção</h2>
-        <div class="todas-promocao">
-            <div class="promocao_info_amigo1">
-                <h3 >Desconto 5%</h3>
-                <p>Se você trouxer alguém para fazer o pé, ambos receberão um desconto de 5% nos serviços. Não há nada melhor do que desfrutar de uma experiência de cuidados pessoais juntos!</p>
-            </div>
-            <div class="promocao_info_amigo2">
-                <h3>Desconto 10%</h3>
-                <p>Se você indicar um amigo para cortar o cabelo conosco, você receberá um desconto especial de 15% na sua próxima visita. Além disso, seu amigo também desfrutará desse desconto exclusivo. É uma vitória para ambos!</p>
-            </div>
-            <div class="promocao_info_amigo3">
-                <h3>Desconto 50%</h3>
-                <p>Se você trouxer um amigo para cortar o cabelo, fazer a barba e cuidar das Sobrancelha, nós recompensaremos sua fidelidade com um desconto incrível de 50% em todos os serviços mencionados. </p>
-            </div>
-        </div>
-        
-    </div>
-
+    
     <!-- Mensagem -->
     <article>
         <div class="inicio-mensagem">
@@ -88,7 +69,27 @@
             <p>Esperamos por você em nosso salão de barbearia.</p>
         </div>
     </article>
-   
+   <!--promoção -->
+   <div id="inicio-promocao">
+    <h2>Promoção</h2>
+    <div class="todas-promocao">
+        <div class="promocao_info_amigo1">
+            <h3 >Desconto 5%</h3>
+            <p>Se você trouxer alguém para fazer o pé, ambos receberão um desconto de 5% nos serviços. Não há nada melhor do que desfrutar de uma experiência de cuidados pessoais juntos!</p>
+        </div>
+        <div class="promocao_info_amigo2">
+            <h3>Desconto 10%</h3>
+            <p>Se você indicar um amigo para cortar o cabelo conosco, você receberá um desconto especial de 15% na sua próxima visita. Além disso, seu amigo também desfrutará desse desconto exclusivo. É uma vitória para ambos!</p>
+        </div>
+        <div class="promocao_info_amigo3">
+            <h3>Desconto 50%</h3>
+            <p>Se você trouxer um amigo para cortar o cabelo, fazer a barba e cuidar das Sobrancelha, nós recompensaremos sua fidelidade com um desconto incrível de 50% em todos os serviços mencionados. </p>
+        </div>
+    </div>
+    
+</div>
+
+
     <!-- Fotos -->
     <div id="galeria">
         <div class="galeria-texto">

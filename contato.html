@@ -15,10 +15,11 @@
         <link rel="stylesheet" href="./css/alunos.css">
         <link rel="shortcut icon" href="./img/barbearia.ico" type="image/x-icon">
         <script src="js/script.js"></script>
+        <script src="js/enviar.js"></script>
         <title>Jhon Cortes</title>
     </head>
 
-<body>
+<body  onload="moverTitulo()">
     <!-- Cabeçalho -->
     <header id="topo">
         <h1 class="topo-texto">BARBEARIA</h1>
@@ -65,7 +66,7 @@
         </div>
 
         <div id="formulario-contato">
-            <form action="enviar.php" method="post">
+            <form  >
             
                 <input type="text" class="caixa-form-text" placeholder="Nome" required>
                 
@@ -74,7 +75,7 @@
              
                 <textarea class="caixa-form-mensagem" rows="10" placeholder="Digite sua mensagem"></textarea>  
                
-                <button class="button-enviar" type="submit"><strong>Enviar</strong></button>
+                <button id="botao-enviar" class="button-enviar" type="submit" onclick="exibirMensagem()"><strong>Enviar</strong></button>
             </form>
             
         </div>

@@ -1,16 +1,18 @@
+function moverTitulo() {
+  var tituloOriginal = document.title;
+  var texto = tituloOriginal + "     "; 
+  var velocidade = 200; //velocidade
 
-const links = document.querySelectorAll('scr');
-// clique suave
-links.forEach(link => {
-  link.addEventListener('click', smoothScroll);
-});
+  setInterval(function() {
+      texto = texto.substring(1) + texto.charAt(0);
+      document.title = texto;
+  }, velocidade);
+}
+//
 
-// Função para rolagem suave
+//rolagem
 function smoothScroll(event) {
   event.preventDefault();
-
-  const targetId = this.getAttribute('href');
-  const targetElement = document.querySelector(targetId);
 
   window.scrollTo({
     top: targetElement.offsetTop,
@@ -22,15 +24,7 @@ function smoothScroll(event) {
 
 
 
-//Selecionar botao
-const btnservicos    = document.getElementById('btnservicos');
-
-//Click botão
-btnservicos.addEventListener('click' , function() {
-    const botaoservicos = document.getElementById('servicos_caixa_index');
-    const duration = 10;
-    botaoservicos.scrollIntoView({
-        behavior: 'smooth'
-    })
-   
-})
+function rolagemsessao() {
+  var secao = document.getElementById("inicio-promocao");
+  secao.scrollIntoView({ behavior: 'smooth' });
+}
