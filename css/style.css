@@ -64,6 +64,14 @@ body{
             opacity: 0.8;
         }
 
+/* Contador */
+.contador-online{
+    position: fixed;
+    margin-left: 5px;
+    z-index: 1;
+    bottom: 0;
+}
+
 /* Formatação da caixa de imagem */
     #caixa{
         display: flex;
