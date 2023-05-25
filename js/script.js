@@ -1,10 +1,6 @@
 
-
-
-// Selecione todos os links internos na página
 const links = document.querySelectorAll('scr');
-
-// Adicione um evento de clique suave a cada link
+// clique suave
 links.forEach(link => {
   link.addEventListener('click', smoothScroll);
 });
