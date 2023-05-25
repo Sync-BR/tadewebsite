@@ -33,7 +33,9 @@ main{
     background-color: transparent;
 }
 
-
+    .inicio-mensagem p{
+        width: max-content;
+    }
 .todas-promocao{
     padding-bottom: 15px;
 }
