@@ -164,7 +164,7 @@
 
 /* Efeitos do servicos */
 .servicos_caixa_cabelo:hover {
-    background-image: url(/img/cortes/corte_flavian22.jpg);
+    background-image: url(./img/cortes/corte_flavian22.jpg);
     background-size: cover;
     border: 2px solid yellow;
     color: white;
