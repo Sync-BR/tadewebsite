@@ -5,12 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/responsivel/inicio_responsivo.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/style_img.css">
-    <link rel="stylesheet" href="./css/efeitos.css">
-    <link rel="stylesheet" href="./css/alunos.css">
     <link rel="shortcut icon" href="./img/barbearia.ico" type="image/x-icon">
     <script src="./js/script.js"></script>
     <title>Jhon Cortes</title>
@@ -19,203 +15,221 @@
 <body onload="moverTitulo()">
 
     <!-- Cabeçalho -->
-    <header id="topo">
-        <h1 class="topo-texto">BARBEARIA</h1>
+    <header>
+        <h1>BARBEARIA</h1>
     </header>
     <!-- menu -->
-    <nav id="menu">
+    <nav>
         <ul>
-            <li class="layout-botao"><a class="botao-inicio" href="#topo">INICIO</a></li>
-            <li class="layout-botao"><a href="sobre.html">SOBRE</a></li>
-            <li class="layout-botao"><a href="servicos.html">SERVIÇOS</a></li>
-            <li class="layout-botao"><a href="contato.html">CONTATO</a></li>
+            <li><a class="botao-inicio" href="#topo">INICIO</a></li>
+            <li><a href="sobre.html">SOBRE</a></li>
+            <li><a href="servicos.html">SERVIÇOS</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
         </ul>
     </nav>
 
- <main>
+    <main>
 
-  <!-- Imagem -->
-    <div id="caixa" class="container">
-        <img class="img-slider" src="./img/barbearia.jpg" alt="cadeira-barbeiro">
-        <div class="legenda">
-            <h2 class="titulo-legenda">BARBEARIA</h2>
-            <p class="texto-legenda">
-                Promoção de corte de cabelo na Barbearia Jhon Corts: Desfrute de um visual renovado por um preço incrível! Nossa barbearia está oferecendo um desconto exclusivo em cortes de cabelo masculino. Experimente o talento dos nossos habilidosos barbeiros e saia com um estilo impecável. Não perca essa oportunidade de se sentir confiante e elegante na Barbearia Jhon Corts!
+        <!-- Imagem -->
+        <div id="caixa" class="container">
+            <img class="img-slider" src="./img/barbearia.jpg" alt="cadeira-barbeiro">
+            <div class="legenda">
+                <h2 class="titulo-legenda">BARBEARIA</h2>
+                <p class="texto-legenda">
+                    Promoção de corte de cabelo na Barbearia Jhon Corts: Desfrute de um visual renovado por um preço
+                    incrível! Nossa barbearia está oferecendo um desconto exclusivo em cortes de cabelo masculino.
+                    Experimente o talento dos nossos habilidosos barbeiros e saia com um estilo impecável. Não perca
+                    essa oportunidade de se sentir confiante e elegante na Barbearia Jhon Corts!
 
-            </p>
+                </p>
                 <div class="slider-botao">
                     <button id="btnservicos" onclick="rolagemsessao()">
                         <section>
                             <a>Promoções</a>
                         </section>
-                       
+
                     </button>
                 </div>
+            </div>
         </div>
-    </div>
 
 
-    
-    <!-- Mensagem -->
-    <article>
-        <div class="inicio-mensagem">
-            <!-- Titulo -->
-            <div class="inicio-titulo-forma">
-                <h2>Cuide da Sua Aparência</h2>
+
+        <!-- Mensagem -->
+        <article>
+            <div class="inicio-mensagem">
+                <!-- Titulo -->
+                <div class="inicio-titulo-forma">
+                    <h2>Cuide da Sua Aparência</h2>
+                </div>
+
+                <p>Confie em nossos talentosos barbeiros para um visual impecável. Cortes de cabelo e barba</p>
+                <p>com as últimas tendências. Relaxamento e cuidado personalizados. Agende seu horário e </p>
+                <p>alcance o visual desejado. Deixe-nos cuidar de você. Expertise em cuidados masculinos. </p>
+                <p>Esperamos por você em nosso salão de barbearia.</p>
+            </div>
+        </article>
+        <!--promoção -->
+        <div id="inicio-promocao">
+            <h2>Promoção</h2>
+            <div class="todas-promocao">
+                <div class="promocao_info_amigo1">
+                    <h3>Desconto 5%</h3>
+                    <p>Se você trouxer alguém para fazer o pé, ambos receberão um desconto de 5% nos serviços. Não há
+                        nada melhor do que desfrutar de uma experiência de cuidados pessoais juntos!</p>
+                </div>
+                <div class="promocao_info_amigo2">
+                    <h3>Desconto 10%</h3>
+                    <p>Se você indicar um amigo para cortar o cabelo conosco, você receberá um desconto especial de 15%
+                        na sua próxima visita. Além disso, seu amigo também desfrutará desse desconto exclusivo. É uma
+                        vitória para ambos!</p>
+                </div>
+                <div class="promocao_info_amigo3">
+                    <h3>Desconto 50%</h3>
+                    <p>Se você trouxer um amigo para cortar o cabelo, fazer a barba e cuidar das Sobrancelha, nós
+                        recompensaremos sua fidelidade com um desconto incrível de 50% em todos os serviços mencionados.
+                    </p>
+                </div>
             </div>
 
-            <p>Confie em nossos talentosos barbeiros para um visual impecável. Cortes de cabelo e barba</p>
-            <p>com as últimas tendências. Relaxamento e cuidado personalizados. Agende seu horário e </p>
-            <p>alcance o visual desejado. Deixe-nos cuidar de você. Expertise em cuidados masculinos. </p>
-            <p>Esperamos por você em nosso salão de barbearia.</p>
         </div>
-    </article>
-   <!--promoção -->
-   <div id="inicio-promocao">
-    <h2>Promoção</h2>
-    <div class="todas-promocao">
-        <div class="promocao_info_amigo1">
-            <h3 >Desconto 5%</h3>
-            <p>Se você trouxer alguém para fazer o pé, ambos receberão um desconto de 5% nos serviços. Não há nada melhor do que desfrutar de uma experiência de cuidados pessoais juntos!</p>
-        </div>
-        <div class="promocao_info_amigo2">
-            <h3>Desconto 10%</h3>
-            <p>Se você indicar um amigo para cortar o cabelo conosco, você receberá um desconto especial de 15% na sua próxima visita. Além disso, seu amigo também desfrutará desse desconto exclusivo. É uma vitória para ambos!</p>
-        </div>
-        <div class="promocao_info_amigo3">
-            <h3>Desconto 50%</h3>
-            <p>Se você trouxer um amigo para cortar o cabelo, fazer a barba e cuidar das Sobrancelha, nós recompensaremos sua fidelidade com um desconto incrível de 50% em todos os serviços mencionados. </p>
-        </div>
-    </div>
-    
-</div>
 
 
-    <!-- Fotos -->
-    <div id="galeria">
-        <div class="galeria-texto">
-            <h2>Galeria</h2><br>
-        </div>
-        <div class="galeria-imagens">
-            <img src="./img/cortes/corte_flavian.jpg" alt="corte0">
-            <img src="./img/cortes/corte-1.jpg" alt="corte1">
-            <img src="./img/cortes/corte-2.jpg" alt="corte2">
-            <img src="./img/cortes/corte-44.jpg" alt="corte3">
-            <img src="./img/cortes/corte-4.jpg" alt="corte4">
-            <img src="./img/cortes/corte-5.jpg" alt="corte5">
-        </div>
-        
-        <div class="galeria-imagens">
-            <img src="./img/cortes/corte-7.jpg" alt="corte7">
-            <img src="./img/cortes/corte-8.jpg" alt="corte8">
-            <img src="./img/cortes/corte-9.jpg" alt="corte9">
-            <img src="./img/cortes/corte-10.jpg" alt="Corte10">
-            <img src="./img/cortes/pintura2.jpg" alt="pintura">
-            <img src="./img/cortes/sombracelha-1.jpg" alt="sobrancelha">
+        <!-- Fotos -->
+        <div id="galeria">
+            <div class="galeria-texto">
+                <h2>Galeria</h2><br>
+            </div>
+            <div class="galeria-imagens">
+                <img src="./img/cortes/corte_flavian.jpg" alt="corte0">
+                <img src="./img/cortes/corte-1.jpg" alt="corte1">
+                <img src="./img/cortes/corte-2.jpg" alt="corte2">
+                <img src="./img/cortes/corte-44.jpg" alt="corte3">
+                <img src="./img/cortes/corte-4.jpg" alt="corte4">
+                <img src="./img/cortes/corte-5.jpg" alt="corte5">
+            </div>
+
+            <div class="galeria-imagens">
+                <img src="./img/cortes/corte-7.jpg" alt="corte7">
+                <img src="./img/cortes/corte-8.jpg" alt="corte8">
+                <img src="./img/cortes/corte-9.jpg" alt="corte9">
+                <img src="./img/cortes/corte-10.jpg" alt="Corte10">
+                <img src="./img/cortes/pintura2.jpg" alt="pintura">
+                <img src="./img/cortes/sombracelha-1.jpg" alt="sobrancelha">
+
+            </div>
 
         </div>
 
-    </div>
+
+
+        <!-- Informação de serviços -->
+        <div id="servicos_caixa_index">
+            <div class="servicos_caixa_cabelo">
+                <h2>Cabelo</h2>
+                <p>Cortes de cabelo personalizados para ressaltar sua personalidade e estilo único, com nossos
+                    habilidosos barbeiros especializados em cortes clássicos e tendências modernas.
+                </p>
+
+            </div>
+
+            <div class="servicos_caixa_barba">
+                <h2>Barba</h2>
+                <p>Mime sua barba com nossa barboterapia especializada. Aproveite uma sessão relaxante que inclui corte,
+                    alinhamento, hidratação e cuidados específicos para deixar sua barba macia, saudável e no ponto.</p>
+            </div>
+
+            <div class="servicos_caixa_sobracelha">
+                <h2>Sobrancelha</h2>
+                <p>Dê um toque final elegante ao seu rosto com nosso serviço de design de barba e Sobrancelha. Nossos
+                    especialistas vão esculpir e modelar sua barba e Sobrancelha de acordo com suas preferências,
+                    realçando seus traços e garantindo uma aparência impecável.</p>
+            </div>
+
+            <div class="servicos_caixa_tatto">
+                <h2>Tattoo</h2>
+                <p>Cuide da saúde do seu cabelo com nossos tratamentos capilares personalizados. Seja para hidratação,
+                    nutrição ou fortalecimento, nossos produtos de qualidade combinados com as técnicas dos nossos
+                    profissionais vão deixar seus fios mais bonitos e saudáveis.</p>
+            </div>
+            <div class="servicos_caixa_pintura">
+                <h2>Pintura</h2>
+                <p>Além dos cuidados com cabelo e barba, oferecemos serviços extras como remoção de pelos indesejados,
+                    tintura de barba e cabelo, entre outros. Fique à vontade para perguntar sobre nossas opções
+                    adicionais.</p>
+            </div>
+        </div>
+    </main>
 
 
 
-    <!-- Informação de serviços -->
-    <div id="servicos_caixa_index">
-        <div class="servicos_caixa_cabelo">
-            <h2>Cabelo</h2>
-            <p>Cortes de cabelo personalizados para ressaltar sua personalidade e estilo único, com nossos habilidosos barbeiros especializados em cortes clássicos e tendências modernas.
+    <!-- Rodape -->
+    <footer id="rodape" class="rodape">
+
+        <p>JHON CORTS © 2023. All Rights Reserveds.</p>
+    </footer>
+
+    <!-- Alunos -->
+    <div id="rodape-alunos">
+
+        <details class="rodape-details">
+            <summary>
+                Alunos
+            </summary>
+            <p>
+                Caio Jesus de Carvalho <br>
+                David Santana de Oliveira <br>
+                Eduardo Freitas da Silva Santos <br>
+                Elton Moreira Santos <br>
+                Gian Felipe Andrade dos Santos <br>
+                Ismael Santos Bomfim <br>
+                Thiago Santos Arruda de Souza <br>
             </p>
-           
-        </div>
-        
-        <div class="servicos_caixa_barba">
-            <h2>Barba</h2>
-            <p>Mime sua barba com nossa barboterapia especializada. Aproveite uma sessão relaxante que inclui corte, alinhamento, hidratação e cuidados específicos para deixar sua barba macia, saudável e no ponto.</p>
-        </div>
+        </details>
 
-        <div class="servicos_caixa_sobracelha">
-            <h2>Sobrancelha</h2>
-            <p>Dê um toque final elegante ao seu rosto com nosso serviço de design de barba e Sobrancelha. Nossos especialistas vão esculpir e modelar sua barba e Sobrancelha de acordo com suas preferências, realçando seus traços e garantindo uma aparência impecável.</p>
-        </div>
 
-        <div class="servicos_caixa_tatto">
-            <h2>Tattoo</h2>
-            <p>Cuide da saúde do seu cabelo com nossos tratamentos capilares personalizados. Seja para hidratação, nutrição ou fortalecimento, nossos produtos de qualidade combinados com as técnicas dos nossos profissionais vão deixar seus fios mais bonitos e saudáveis.</p>
-        </div>
-        <div class="servicos_caixa_pintura">
-            <h2>Pintura</h2>
-            <p>Além dos cuidados com cabelo e barba, oferecemos serviços extras como remoção de pelos indesejados, tintura de barba e cabelo, entre outros. Fique à vontade para perguntar sobre nossas opções adicionais.</p>
-        </div>       
+
     </div>
- </main>
+    <!-- Fim -->
 
- 
-
-        <!-- Rodape -->
-        <footer id="rodape" class="rodape">
-            
-            <p>JHON CORTS © 2023. All Rights Reserveds.</p>
-        </footer>
-
-        <!-- Alunos -->
-        <div id="rodape-alunos">
-            
-            <details class="rodape-details">
-                <summary>
-                Alunos 
-                </summary>
-                    <p>
-                        Caio Jesus de Carvalho <br>
-                        David Santana de Oliveira <br>
-                        Eduardo Freitas da Silva Santos <br>
-                        Elton Moreira Santos <br>
-                        Gian Felipe Andrade dos Santos <br>
-                        Ismael Santos Bomfim <br>
-                        Thiago Santos Arruda de Souza <br>
-                    </p>
-            </details>
-
-    
-
-        </div>
-        <!-- Fim -->
-
-        <div id="caixa-rodape-fundo">
-            <div class="rodape-infor">
-                <div class="icones_rodape">
-                    <img class="icon-rodape" src="./img/rodape/email.ico" alt="email">
-                    <img class="icon-rodape" src="./img/rodape/Whatsapp.ico" alt="Whatsapp">
-                    <img class="icon-rodape" src="./img/rodape/maps.ico" alt="maps">
-                </div>
-                <div class="icones-texto">
-                    <p><strong>Email: </strong>jonatasgomes065@gmail.com</p>
-                    <br>
-                    <p><strong>Whatsapp: </strong><a href="https://wa.me/5571986917919" target="_blank">(71) 986917919</a>
-                    </p>
-                    <br>
-                    <p><strong>Localização: </strong><a href="https://goo.gl/maps/SSzcTn8mT8K5NmjWA" target="_blank">NossaSra. da Boa Esperança, 2-98 - Alto do Cabrito, Salvador - BA, 40484-825</a></p>
-
-                </div>
+    <div id="caixa-rodape-fundo">
+        <div class="rodape-infor">
+            <div class="icones_rodape">
+                <img class="icon-rodape" src="./img/rodape/email.ico" alt="email">
+                <img class="icon-rodape" src="./img/rodape/Whatsapp.ico" alt="Whatsapp">
+                <img class="icon-rodape" src="./img/rodape/maps.ico" alt="maps">
             </div>
+            <div class="icones-texto">
+                <p><strong>Email: </strong>jonatasgomes065@gmail.com</p>
+                <br>
+                <p><strong>Whatsapp: </strong><a href="https://wa.me/5571986917919" target="_blank">(71) 986917919</a>
+                </p>
+                <br>
+                <p><strong>Localização: </strong><a href="https://goo.gl/maps/SSzcTn8mT8K5NmjWA"
+                        target="_blank">NossaSra. da Boa Esperança, 2-98 - Alto do Cabrito, Salvador - BA, 40484-825</a>
+                </p>
 
-            <div class="rodape-paginas">
-                <h2>Paginas</h2>
-                <section>
-                    <ul>
-                        <li><a href="index.html">INICIO</a></li>
-                        <li><a href="servicos.html">SERVIÇOS</a></li>
-                        <li><a href="sobre.html">SOBRE</a></li>
-                        <li><a href="contato.html">CONTATO</a></li>
-                    </ul>
-                </section>
-
-            </div>
-
-            <div id="forma_pagamento">
-                <h3>Formas  de Pagamento</h3>
-                <img src="./img/card.png" alt="Forma de pagamento">
             </div>
         </div>
+
+        <div class="rodape-paginas">
+            <h2>Paginas</h2>
+            <section>
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="servicos.html">SERVIÇOS</a></li>
+                    <li><a href="sobre.html">SOBRE</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
+                </ul>
+            </section>
+
+        </div>
+
+        <div id="forma_pagamento">
+            <h3>Formas de Pagamento</h3>
+            <img src="./img/card.png" alt="Forma de pagamento">
+        </div>
+    </div>
 </body>
 
 <!-- Fonts -->
@@ -227,7 +241,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap" rel="stylesheet">  
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
@@ -246,4 +260,5 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
 </html>
