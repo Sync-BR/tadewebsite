@@ -8,17 +8,27 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./img/barbearia.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <script src="./js/script.js"></script>
     <title>Jhon Cortes</title>
 </head>
 
 <body onload="moverTitulo()">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
 
-    <!-- Cabeçalho -->
     <header>
         <h1>BARBEARIA</h1>
     </header>
-    <!-- menu -->
     <nav>
         <ul>
             <li><a class="botao-inicio" href="#topo">INICIO</a></li>
@@ -29,29 +39,86 @@
     </nav>
 
     <main>
-
-        <!-- Imagem -->
-        <div id="caixa" class="container">
-            <img class="img-slider" src="./img/barbearia.jpg" alt="cadeira-barbeiro">
-            <div class="legenda">
-                <h2 class="titulo-legenda">BARBEARIA</h2>
-                <p class="texto-legenda">
-                    Promoção de corte de cabelo na Barbearia Jhon Corts: Desfrute de um visual renovado por um preço
-                    incrível! Nossa barbearia está oferecendo um desconto exclusivo em cortes de cabelo masculino.
-                    Experimente o talento dos nossos habilidosos barbeiros e saia com um estilo impecável. Não perca
-                    essa oportunidade de se sentir confiante e elegante na Barbearia Jhon Corts!
-
-                </p>
-                <div class="slider-botao">
-                    <button id="btnservicos" onclick="rolagemsessao()">
-                        <section>
-                            <a>Promoções</a>
-                        </section>
-
-                    </button>
+        <section class="inicio">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
                 </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/barbearia.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>#Titulo 1</h5>
+                            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo minima, earum a
+                                consequuntur maiores minus laborum tenetur suscipit vitae similique ipsam ipsa nihil rem
+                                aspernatur delectus, sunt asperiores voluptates? Minus.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/barbearia.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>#Titulo 2</h5>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores corporis facere quam
+                                illo earum facilis sit repellat nostrum velit.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/barbearia.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>#Titulo 3</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. ]</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-        </div>
+
+        </section>
+
+        <section>
+            <h2>Lista de Serviços</h2>
+            <div class="listaDeServicos">
+                <ul>
+                    <h5>Cortes</h5>
+                    <li>Corte masculino R$ 00,00</li>
+                    <li>Pé do cabelo R$ 00,00</li>
+                    <li>Barba R$ 00,00</li>
+                    <li>Sombrancelha R$ 00,00</li>
+                </ul>
+                <ul>
+                    <h6>Combo</h6>
+                    <li>Pé e barba R$ 00,00</li>
+                    <li>Barba e sombrancelha R$ 00,00</li>
+                    <li>Pé, barba e sombrancelha R$ 00,00</li>
+                    <li>Corte, cabelo, barba e sombrancelha R$ 00</li>
+                </ul>
+                <ul>
+                    <h5>Promoções da semana</h5>
+                    <li>
+                        <h6>
+                            Cupom de desconto 5%
+                        </h6>
+                        <span>Barbe785YZKW</span>
+                    </li>
+                </ul>
+
+            </div>
+
+        </section>
 
 
 
