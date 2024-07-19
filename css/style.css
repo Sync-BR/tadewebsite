@@ -3,6 +3,7 @@ body {
     background-color: #000000;
     color: white;
     font-size: 16px;
+    overflow-x: hidden;
 }
 
 header {
@@ -18,29 +19,19 @@ header h1{
         text-shadow: -5px 0 rgb(66, 66, 66);
 }
 
-
-
-nav {
-    background-color: rgb(0, 0, 0, 0.8);
-    border-bottom: 1px solid rgb(255, 255, 255, 0.9);
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    padding: 15px 0 0 0;
-}
-nav li{
-    margin-left: 15px;
-    list-style: none;
-}
-nav ul {
+.listaDeServicos{
     display: flex;
+    justify-content: space-evenly;
     flex-direction: row;
-    opacity: 0.8;
-    padding: 0 0 15px 0;
-    
+    width: 100vw;
+    height: 100vh;
+    padding: 25px 15px 25px 15px;
 }
-nav a{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 20px;   
+section h2{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 3rem;
 }
