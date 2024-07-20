@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="./img/barbearia.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./img/barbearia.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
@@ -31,15 +32,15 @@
     </header>
     <nav>
         <ul>
-            <li><a class="botao-inicio" href="#topo">INICIO</a></li>
-            <li><a href="sobre.html">SOBRE</a></li>
-            <li><a href="servicos.html">SERVIÇOS</a></li>
+            <li><a href="#inicio">INICIO</a></li>
+            <li><a href="#servicos">SERVIÇOS</a></li>
+            <li><a href="#galeria">Galeria</a></li>
             <li><a href="contato.html">CONTATO</a></li>
         </ul>
     </nav>
 
     <main>
-        <section class="inicio">
+        <section class="inicio" id="inicio">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -89,8 +90,9 @@
 
         </section>
 
-        <section class="servicos">
+        <section class="servicos" id="servicos">
             <h2>Lista de Serviços</h2>
+
             <div class="listaDeServicos">
                 <div class="card" style="width: 18rem;">
                     <img src="./img/Servicos/man-barbershop-salon-doing-haircut-beard-trim.jpg" class="card-img-top"
@@ -109,7 +111,8 @@
                     <div class="card-body">
                         <h6>Corte de Tesoura</h6>
                         <p class="card-text">
-                            Para um corte mais detalhado e personalizado, escolha o corte de tesoura por R$20,00. Nosso barbeiro irá criar um estilo que combina com sua personalidade.
+                            Para um corte mais detalhado e personalizado, escolha o corte de tesoura por R$20,00. Nosso
+                            barbeiro irá criar um estilo que combina com sua personalidade.
                         </p>
                     </div>
                 </div>
@@ -119,132 +122,51 @@
                     <div class="card-body">
                         <h6>Pé de Cabelo</h6>
                         <p class="card-text">
-                            Mantenha as linhas do seu corte sempre em dia com o nosso serviço de pé de cabelo por apenas R$7,00. Perfeito para dar aquele toque final no seu visual.
+                            Mantenha as linhas do seu corte sempre em dia com o nosso serviço de pé de cabelo por apenas
+                            R$7,00. Perfeito para dar aquele toque final no seu visual.
                         </p>
                     </div>
                 </div>
-                
+
             </div>
             <br>
             <div class="card">
                 <div class="card-header">
-                  Outros serviços
+                    Outros serviços
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Serviços de Barbearia</h5>
-                  <p class="card-text">Oferecemos uma ampla gama de serviços de barbearia para atender a todas as suas necessidades de cuidados pessoais. Nossos serviços incluem cortes de cabelo, manutenção de barba e cuidados com sobrancelhas, todos realizados por profissionais experientes para garantir um visual impecável.</p>
+                    <h5 class="card-title">Serviços de Barbearia</h5>
+                    <p class="card-text">Oferecemos uma ampla gama de serviços de barbearia para atender a todas as suas
+                        necessidades de cuidados pessoais. Nossos serviços incluem cortes de cabelo, manutenção de barba
+                        e cuidados com sobrancelhas, todos realizados por profissionais experientes para garantir um
+                        visual impecável.</p>
                 </div>
-              </div>
+            </div>
         </section>
-
-
-
-        <!-- Mensagem -->
-        <article>
-            <div class="inicio-mensagem">
-                <!-- Titulo -->
-                <div class="inicio-titulo-forma">
-                    <h2>Cuide da Sua Aparência</h2>
-                </div>
-
-                <p>Confie em nossos talentosos barbeiros para um visual impecável. Cortes de cabelo e barba</p>
-                <p>com as últimas tendências. Relaxamento e cuidado personalizados. Agende seu horário e </p>
-                <p>alcance o visual desejado. Deixe-nos cuidar de você. Expertise em cuidados masculinos. </p>
-                <p>Esperamos por você em nosso salão de barbearia.</p>
-            </div>
-        </article>
-        <!--promoção -->
-        <div id="inicio-promocao">
-            <h2>Promoção</h2>
-            <div class="todas-promocao">
-                <div class="promocao_info_amigo1">
-                    <h3>Desconto 5%</h3>
-                    <p>Se você trouxer alguém para fazer o pé, ambos receberão um desconto de 5% nos serviços. Não há
-                        nada melhor do que desfrutar de uma experiência de cuidados pessoais juntos!</p>
-                </div>
-                <div class="promocao_info_amigo2">
-                    <h3>Desconto 10%</h3>
-                    <p>Se você indicar um amigo para cortar o cabelo conosco, você receberá um desconto especial de 15%
-                        na sua próxima visita. Além disso, seu amigo também desfrutará desse desconto exclusivo. É uma
-                        vitória para ambos!</p>
-                </div>
-                <div class="promocao_info_amigo3">
-                    <h3>Desconto 50%</h3>
-                    <p>Se você trouxer um amigo para cortar o cabelo, fazer a barba e cuidar das Sobrancelha, nós
-                        recompensaremos sua fidelidade com um desconto incrível de 50% em todos os serviços mencionados.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-
-
-        <!-- Fotos -->
-        <div id="galeria">
-            <div class="galeria-texto">
-                <h2>Galeria</h2><br>
-            </div>
-            <div class="galeria-imagens">
+        <section id="galeria">
+            <h4>Galeria</h4>
+            <div class="galeria">
                 <img src="./img/cortes/corte_flavian.jpg" alt="corte0">
                 <img src="./img/cortes/corte-1.jpg" alt="corte1">
                 <img src="./img/cortes/corte-2.jpg" alt="corte2">
                 <img src="./img/cortes/corte-44.jpg" alt="corte3">
                 <img src="./img/cortes/corte-4.jpg" alt="corte4">
                 <img src="./img/cortes/corte-5.jpg" alt="corte5">
-            </div>
-
-            <div class="galeria-imagens">
                 <img src="./img/cortes/corte-7.jpg" alt="corte7">
                 <img src="./img/cortes/corte-8.jpg" alt="corte8">
                 <img src="./img/cortes/corte-9.jpg" alt="corte9">
                 <img src="./img/cortes/corte-10.jpg" alt="Corte10">
                 <img src="./img/cortes/pintura2.jpg" alt="pintura">
                 <img src="./img/cortes/sombracelha-1.jpg" alt="sobrancelha">
-
             </div>
 
-        </div>
+        </section>
 
 
+       
+        <section id="contato" class="contato">
 
-        <!-- Informação de serviços -->
-        <div id="servicos_caixa_index">
-            <div class="servicos_caixa_cabelo">
-                <h2>Cabelo</h2>
-                <p>Cortes de cabelo personalizados para ressaltar sua personalidade e estilo único, com nossos
-                    habilidosos barbeiros especializados em cortes clássicos e tendências modernas.
-                </p>
-
-            </div>
-
-            <div class="servicos_caixa_barba">
-                <h2>Barba</h2>
-                <p>Mime sua barba com nossa barboterapia especializada. Aproveite uma sessão relaxante que inclui corte,
-                    alinhamento, hidratação e cuidados específicos para deixar sua barba macia, saudável e no ponto.</p>
-            </div>
-
-            <div class="servicos_caixa_sobracelha">
-                <h2>Sobrancelha</h2>
-                <p>Dê um toque final elegante ao seu rosto com nosso serviço de design de barba e Sobrancelha. Nossos
-                    especialistas vão esculpir e modelar sua barba e Sobrancelha de acordo com suas preferências,
-                    realçando seus traços e garantindo uma aparência impecável.</p>
-            </div>
-
-            <div class="servicos_caixa_tatto">
-                <h2>Tattoo</h2>
-                <p>Cuide da saúde do seu cabelo com nossos tratamentos capilares personalizados. Seja para hidratação,
-                    nutrição ou fortalecimento, nossos produtos de qualidade combinados com as técnicas dos nossos
-                    profissionais vão deixar seus fios mais bonitos e saudáveis.</p>
-            </div>
-            <div class="servicos_caixa_pintura">
-                <h2>Pintura</h2>
-                <p>Além dos cuidados com cabelo e barba, oferecemos serviços extras como remoção de pelos indesejados,
-                    tintura de barba e cabelo, entre outros. Fique à vontade para perguntar sobre nossas opções
-                    adicionais.</p>
-            </div>
-        </div>
-    </main>
-
+        </section>
 
 
     <!-- Rodape -->

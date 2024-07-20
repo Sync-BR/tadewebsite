@@ -1,6 +1,6 @@
 body {
     scroll-behavior: smooth;
-    background-color: #000000;
+    background-color: #E5E5E5; 
     color: white;
     font-size: 16px;
     overflow-x: hidden;
@@ -18,9 +18,19 @@ header h1{
         font-family: Arial, Helvetica, sans-serif;
         text-shadow: -5px 0 rgb(66, 66, 66);
 }
+nav{
+    text-transform: uppercase;
+}
+.inicio{
+    
+    height: 100vh;
+    border-bottom: 2px solid black;
+    padding:65px 0 0 0;
+}
+
 .servicos{
-    padding: 15px 0 15px 0;
-    background-color: #E5E5E5;
+    padding: 95px 15px 90px 15px;
+    
 
 }
 .servicos h2{
@@ -37,6 +47,31 @@ header h1{
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
+}
+#galeria{
+    padding: 120px 15px 0 15px;
 
+}
+#galeria h4{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.galeria{
+    height: 100vh;
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
     
+}
+.galeria img{
+    width: 240px;
+    height: 160px;
+    border: 1px solid black;
 }
