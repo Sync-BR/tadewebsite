@@ -1,0 +1,9 @@
+.navbar-expand-lg{
+    text-transform: uppercase;
+    position: sticky;
+    top: 1;
+}
+
+.carousel-item img{
+    height: 80vh;
+}
